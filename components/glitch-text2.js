@@ -102,7 +102,7 @@ const Container = styled.div`
   }
 `;
 
-
+Container.displayName = "GitchText";
 
 export default ({ children }) => {
   return <Container data-text={children}>{children}</Container>;
