@@ -105,6 +105,8 @@ const GlitchText = styled.div`
 GlitchText.displayName = "GitchText";
 
 
-export default ({ children }) => {
-  return <GlitchText data-text={children}>{children}</GlitchText>;
+const GlitchText = ({ children }) => {
+  return <Container data-text={children}>{children}</Container>;
 };
+
+export default GlitchText;

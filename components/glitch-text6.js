@@ -101,6 +101,8 @@ const Container = styled.div`
   }
 `;
 
-export default ({ children }) => {
+const GlitchText = ({ children }) => {
   return <Container data-text={children}>{children}</Container>;
 };
+
+export default GlitchText;
