@@ -1,17 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
 import netflixImg from '../public/assets/projects/netflix.png'
-import twitchImg from '../public/assets/projects/twitch.jpg'
 import shipwreckcove from '../public/assets/projects/shipwreckcove.png'
 import loglowImg from '../public/assets/projects/loglow.png'
-import theEliteReapers from '../public/assets/projects/theEliteReapers.png'
+import theEliteReapers from '../public/assets/projects/theelitereapers.png'
 import portfolio from '../public/assets/projects/portfolio.png'
 import saas from '../public/assets/projects/saas.png'
 import ProjectItem from './ProjectItem';
-import GlitchText from "./glitch-text";
+import GlitchText from "./glitch-text5";
 
 
 
@@ -23,7 +20,7 @@ const Projects = () => {
           <h2><GlitchText>Projects</GlitchText></h2>
           <hr className='mt-4'/>
           </div>
-        <h2 className='py-4 mt-4 text-[white] bg-black align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Work Demonstration in action</h2>
+        <h2 className='py-4 mt-4 text-[white] bg-black align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Work Demonstrations in action</h2>
         <div className='grid md:grid-cols-2 gap-8 mt-10'>
           <ProjectItem
             title='ShipWreck Cove - Telegram Community Website'

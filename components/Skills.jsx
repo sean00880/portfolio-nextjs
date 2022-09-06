@@ -18,7 +18,7 @@ import GlitchText from "./glitch-text";
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 py-16 bg-[#f1f1f1] bg-bg_image3 bg-fixed'>
+    <div id='skills' className='w-full lg:h-screen p-2 py-16 bg-[#f1f1f1] bg-bg_image6 bg-fixed'>
       <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center bg-[#b11b3498] border-double border-2 rounded-sm border-gray-800' >
       <div className='uppercase text-xl tracking-widest text-[#f4f4f4]'>
           <h2><GlitchText>Skills</GlitchText></h2>

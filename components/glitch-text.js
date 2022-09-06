@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-const Container = styled.div`
+const GlitchText = styled.div`
+
   position: relative;
 
   &:before {
@@ -102,6 +103,9 @@ const Container = styled.div`
   }
 `;
 
+GlitchText.displayName = "GitchText";
+
+
 export default ({ children }) => {
-  return <Container data-text={children}>{children}</Container>;
+  return <GlitchText data-text={children}>{children}</GlitchText>;
 };

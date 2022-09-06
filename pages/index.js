@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
-
+import Payments from '../components/Payments'
 export default function Home() {
   return (
     <div >
@@ -19,6 +19,7 @@ export default function Home() {
       <Main />
       <About /> 
       <Skills /> 
+      <Payments />
       <Projects />
       <Footer />
     </div>

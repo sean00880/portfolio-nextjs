@@ -31,16 +31,28 @@ h1, h2, h3, marquee, span{
   font-family: "custom";
 }
 
+body {
+  height: 100%;
+}
+
+iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
 
 @layer base {
   body {
-    @apply bg-[white] text-[#1c1d1d] tracking-wide;
+    @apply bg-gradient-to-r from-[#79263f] to-[#be294c] text-[#cacaca] tracking-wide;
   }
 
   p{
-    @apply text-lg;
+    @apply text-lg mt-2 mb-2 leading-10 indent-8
   }
-
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold
@@ -59,8 +71,15 @@ h1, h2, h3, marquee, span{
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#000000] to-[#2a2829] text-[#e8e6e6] font-extrabold
   }
 
+  .technologies{
+    @apply bg-gradient-to-r from-[#101010fc] to-[#000000] font-extrabold text-[#f0eeee]
+  }
+
+  .technologies p{
+    @apply text-[#f1eaead3]
+  }
 
 }

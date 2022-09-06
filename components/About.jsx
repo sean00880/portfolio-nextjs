@@ -22,12 +22,18 @@ const About = () => {
           <p className='mx-10 leading-10 indent-2 py-2 bg-[#272727] p-2 px-10 text-[#a2cb83] font-bold rounded-tl-[10px] rounded-br-[10px] mt-2 border-[#d660d8] border-2'>
           / / Web Developer with extensive focus on UI/UX design and optimal functionality / / 
           </p>
-          <p className='mx-10 indent-2 leading-7 py-2 text-[#2b2a2a] mt-4'>
-          I specialize in creating static Web Applications using HTML, CSS and JavaScript, as well as dynamic web applications using React, Next.JS, CMS's and more. As a freelancing content creator, I place high prirotization on aesthetic design as well as proper functionality. I am an active leader in the NFT space and am the founder, developer and artist of an NFT community that offers Web Development as a utility service.
+          <p className='mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
+
+          
+
+          I specialize in creating static Web Applications using HTML, CSS and JavaScript, as well as dynamic web applications using JavaScript Front-End libraries, frameworks, Content Management Systems (CMS), and more. As a freelancing content creator, I place high prirotization on aesthetic design as well as proper functionality. I am an active leader in the NFT space and am the founder, developer and artist of an NFT community that offers Web Development as a utility service.
             
           </p>
-          <p className='mx-10 indent-2 py-2 text-[#2b2a2a] mt-4'>
-          My journey as a developer commenced while I was studying Mechanical Engineering at University of Massachusetts --Amherst. After taking keep intrest in HTML, CSS and JavaScript, I took on an internship with Bechtel Co.'s IT sector located in New Delhi, India. This internship helped deployed my programming skills in HTML, CSS, JS as well as unlock skills in other Full-stack technologlies including Ajax, ASP.NET, MVC Frameworks, PHP, etc. I was able to create an inventory/asset management tool which helped log devices issued in and out of the office to all its employees.<br/><br/>I have some strong Full-Stack foundation, however, my focus is primarly on Front-End Development.
+          <p className='mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
+          My journey as a developer commenced while I was studying Mechanical Engineering at University of Massachusetts--Amherst. After taking keep intrest in static website development, I landed an internship with Bechtel Co.&apos;s IT sector located in New Delhi, India. This internship deployed my programming skills not only in HTML, CSS and JavaScript, but also in other Full-stack technologlies including Ajax, ASP.NET, MVC Frameworks, PHP, etc. At the end of the internship, I was able to create an inventory/asset management software which helped automate the process of logging which devices were issued within the office to the respective emplyees.<br/><br/>I have some strong Full-Stack foundation, however, my focus is primarly on Front-End Development.<br/>
+
+          I strive to achieve transformational success for all brands and niches by offering Web Deveoplment services that deploy my expertise in Front-End Programming as well as my artistic background. I create top-of-the-line web applications with unique UI/UX design, customized to fit client&lsquo;s needs.<br>
+            </br><br></br>By utilizing my background and expertise in full-stack web development, engineering and art, I build top-of-the line websites and applications that possess advanced functionalities and boast cutting edge (UX)User Experience as well as (UI) User Interface design.<br></br> Hire me to build your SEO optimzed website today.
           </p>
           <Link href='/#projects mt-2' >
             <p className='mx-8 indent-2 py-2 text-green-700 underline cursor-pointer'>
