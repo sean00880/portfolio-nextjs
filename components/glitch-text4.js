@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-const GlitchText = styled.div`
+const Container = styled.div`
 
   position: relative;
 
@@ -102,7 +102,6 @@ const GlitchText = styled.div`
   }
 `;
 
-GlitchText.displayName = "GitchText";
 
 
 const GlitchText = ({ children }) => {
