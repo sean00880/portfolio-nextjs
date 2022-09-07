@@ -51,7 +51,7 @@ iframe{
   }
 
   p{
-    @apply text-lg mt-2 mb-2 leading-10 indent-8
+    @apply text-lg mt-2 mb-2 leading-10
   }
   
   h1, h2, h3, h4, h5, h6 {
