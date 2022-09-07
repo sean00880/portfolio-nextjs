@@ -20,7 +20,7 @@ const saas = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={grllc}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -56,10 +56,19 @@ const saas = () => {
             <hr />
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React [and HTML, CSS, JS]
+                <RiRadioButtonFill className='pr-1' /> Next.JS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Vercel
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Github Pages
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Email.JS
               </p>
             </div>
           </div>
