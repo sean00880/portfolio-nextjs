@@ -35,14 +35,14 @@ const About = () => {
           I strive to achieve transformational success for all brands and niches by offering Web Deveoplment services that deploy my expertise in Front-End Programming as well as my artistic background. I create top-of-the-line web applications with unique UI/UX design, customized to fit client&lsquo;s needs.<br>
             </br><br></br>By utilizing my background and expertise in full-stack web development, engineering and art, I build top-of-the line websites and applications that possess advanced functionalities and boast cutting edge (UX)User Experience as well as (UI) User Interface design.<br></br> Hire me to build your SEO optimzed website today.
           </p>
-          <Link href='/#projects' >
+          <Link href='/#projects' passHref>
             <p className='mx-8 indent-2 py-2 text-green-700 underline cursor-pointer'>
               View my latest completed projects.
             </p>
           </Link>
         </div>
         <div className='scale-80 w-[80%] h-auto m-auto shadow-xl shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+          <Image src={AboutImg} className='rounded-xl' alt='/' priority='true'/>
         </div>
       </div>
     </div>
