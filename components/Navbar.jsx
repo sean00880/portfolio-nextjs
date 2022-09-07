@@ -80,6 +80,9 @@ const Navbar = () => {
               <Link href={`${process.env.NEXT_PUBLIC_URL}/#skills`} passHref>Skills</Link>
             </li>
             <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+              <Link href={`${process.env.NEXT_PUBLIC_URL}/#services`} passHref>Services</Link>
+            </li>
+            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href={`${process.env.NEXT_PUBLIC_URL}/#projects`} passHref>Projects</Link>
             </li>
             <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
