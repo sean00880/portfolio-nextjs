@@ -6,7 +6,7 @@ import Link from 'next/link';
 import GlitchText from "../components/glitch-text3";
 import Head from 'next/head'
 
-const saas = () => {
+const grllc = () => {
   return (
     <div className='w-full'>
             <Head>
@@ -81,4 +81,4 @@ const saas = () => {
   );
 };
 
-export default saas;
+export default grllc;
