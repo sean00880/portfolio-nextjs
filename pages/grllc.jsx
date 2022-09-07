@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/saas.png';
+import grllc from '../public/assets/projects/grllc.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import GlitchText from "../components/glitch-text3";
 import Head from 'next/head'
 
-const crypto = () => {
+const saas = () => {
   return (
     <div className='w-full'>
             <Head>
@@ -24,8 +24,8 @@ const crypto = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'> The Elite Reaper Sanctum </h2>
-          <h3>&#47;&#47; NFT Discord Community Landing Page &#47;&#47;</h3>
+          <h2 className='py-2'>Grandpa Ron&apos;s Lawns & Landscape, LLC</h2>
+          <h3>&#47;&#47; Complete Website/Webapp for a Landscaping Business based in Columbus, Ohio&#47;&#47;</h3>
         </div>
       </div>
 
@@ -33,7 +33,7 @@ const crypto = () => {
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
           <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
-            
+            This is a special project built using Next.JS and takes advantage of its powerful static generation, Server-side rendering, page routing and SEO functionalities. The project excels at displaying content dynamically and effectively.<br></br><br></br> With usability, efficiency and design being some of the application's key strengths, it is fair to conclude that this kind of a Next.JS application is ideal for marketing purposes.
           </p>
           <a
             href='https://github.com/sean00880/onlinemarketing'
@@ -72,4 +72,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default saas;

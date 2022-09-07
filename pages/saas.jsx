@@ -31,8 +31,7 @@ const saas = () => {
 
       <div className=' text-center max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
-          <p>Project</p>
-          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2>
+          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
             This prototype project aims to replicate a minimalistic Online Marketing &apos;Software-as-a-Service&apos; (SaaS) application. Best programming practices were applied in order to design a consistent, responsive and modern UI interface. This single-page application was built in React and utilized a wide range of in-built libraries and tools including styled-components, hooks ( for instance &apos;useState&apos;) and router dom implementation.
           </p>

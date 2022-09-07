@@ -31,8 +31,7 @@ const shipwreckcove = () => {
 
       <div className=' text-center max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
-          <p>Project</p>
-          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2>
+          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
           A real project for a crypto community. This website serves as a landing page for a crypto-based community based on Telegram and was built using React.<br></br><br /> 
             React router-dom, styled components, reusable components, usState hook and framer motion animations were some of the key tools utilized in this development. EmailJS was also used to integrate an email-sending feature.

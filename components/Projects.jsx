@@ -7,6 +7,7 @@ import loglowImg from '../public/assets/projects/loglow.png'
 import theEliteReapers from '../public/assets/projects/theelitereapers.png'
 import portfolio from '../public/assets/projects/portfolio.png'
 import saas from '../public/assets/projects/saas.png'
+import grllc from '../public/assets/projects/grllc.png'
 import ProjectItem from './ProjectItem';
 import GlitchText from "./glitch-text5";
 
@@ -22,12 +23,17 @@ const Projects = () => {
           </div>
         <h2 className='py-4 mt-4 text-[white] bg-black align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Work Demonstrations in action</h2>
         <div className='grid md:grid-cols-2 gap-8 mt-10'>
+        <ProjectItem
+            title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
+            backgroundImg={grllc}
+            projectUrl='/grllc'
+            tech='React, NextJS, Github, Vercel, Email.JS'
+          />
           <ProjectItem
             title='ShipWreck Cove - Telegram Community Website'
             backgroundImg={shipwreckcove}
             projectUrl='/shipwreckcove'
             tech='React, Github Pages'
-
           />
           <ProjectItem
             title='Shareo - Online Marketing Agency'
@@ -35,7 +41,7 @@ const Projects = () => {
             projectUrl='/saas'
             tech='React JS, Github Pages'
           />
-                    <ProjectItem
+          <ProjectItem
             title='Loglow - Logo Design Agency'
             backgroundImg={loglowImg}
             projectUrl='/loglow'
@@ -61,7 +67,6 @@ const Projects = () => {
             backgroundImg={portfolio}
             projectUrl='/portfolio'
             tech='React, NextJS, Github, Vercel'
-
           />
         </div>
       </div>

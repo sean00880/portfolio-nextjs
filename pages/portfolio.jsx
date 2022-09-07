@@ -31,8 +31,7 @@ const portfolio = () => {
 
       <div className=' text-center max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
-          <p>Project</p>
-          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2>
+          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
           A Web Application built in order to showcase my recent web-development experience. This portfolio project was built using NextJS in React. NextJS is packed with features that help with boosting overall performance of the site in many different ways. <br></br><br></br>Utilizing NextJS&apos;s interface allows us to simplify the routing process within React and make components and display them on pages easily, that are rendered client-side as well as server-side, enhancing the site&apos;s load time significantly by first rendering content server-side and then client-side. <br></br><br></br>Next JS&apos;s inherent features also are excellent for SEO optimization. NextJS&apos;s client-end transitioning between routes makes it a very appealing asset.
           </p>

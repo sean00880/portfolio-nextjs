@@ -32,8 +32,7 @@ const loglow = () => {
 
       <div className=' text-center max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
-          <p>Project</p>
-          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2>
+          <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
           A very simple static application built using HTML and CSS purely for the purpose of practice. This application uses smooth scroll, various fixed-backgrounds for each section and strategically placed content in order to highlight the message.
           </p>
