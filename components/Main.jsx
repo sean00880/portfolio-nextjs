@@ -16,9 +16,6 @@ const Main = () => {
           </p>
           <h1 className='py-4 leading-20 text-[#bd1240]'>presented by <br/><span className='text-white leading-20'>Shantanu Dwivedi</span><br/><span className='text-[#58f643bc] leading-20 '>a.k.a.</span><span className='text-[#141414] leading-20'><GlitchText>Sean</GlitchText></span></h1>
                 
-          <p className='py-4 leading-20 text-gray-100 sm:max-w-[70%] m-auto bg-[#141414a1] mt-4 rounded-bl-[40px] rounded-tr-[40px] rounded-br-[10px] rounded-tl-[10px]'>
-             
-          </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/decodedweb/'
