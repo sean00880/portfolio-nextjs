@@ -6,7 +6,7 @@ import Link from 'next/link';
 import GlitchText from "../components/glitch-text3";
 import Head from 'next/head'
 
-const grllc = () => {
+const grandparon = () => {
   return (
     <div className='w-full'>
             <Head>
@@ -81,4 +81,4 @@ const grllc = () => {
   );
 };
 
-export default grllc;
+export default grandparon;
