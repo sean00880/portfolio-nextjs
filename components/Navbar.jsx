@@ -64,14 +64,14 @@ const Navbar = () => {
               width='125px'
               height='125px'
               className='cursor-pointer'
-              priority={true}
+              priority='true'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-6 hidden md:flex'>
             <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
-              <Link href={`${process.env.NEXT_PUBLIC_URL}/`} passHref>Home</Link>
+              <Link href={`${process.env.NEXT_PUBLIC_URL}/#home`} passHref>Home</Link>
             </li>
             <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href={`${process.env.NEXT_PUBLIC_URL}/#about`} passHref>About</Link> 
@@ -124,6 +124,7 @@ const Navbar = () => {
                     width='87'
                     height='35'
                     alt='/'
+                    priority='true'
                   />
                 </a>
               </Link>
