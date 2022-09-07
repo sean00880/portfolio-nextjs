@@ -69,7 +69,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-6 hidden md:flex'>
+          <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-6 hidden xl:flex'>
             <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#home' passHref>Home</Link>
             </li>
@@ -94,9 +94,9 @@ const Navbar = () => {
           </ul>
           {/* Hamburger Icon */}
           <div
-            style={{ color: `${linkColor}` }}
+            style={{ color: `${'white'}` }}
             onClick={handleNav}
-            className='md:hidden'
+            className='xl:hidden'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -107,7 +107,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'xl:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
         }
       >
         {/* Side Drawer Menu */}
@@ -124,8 +124,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='150'
+                    height='150'
                     alt='/'
                     priority='true'
                   />
@@ -140,7 +140,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Demonstration of Live Developments and Prototype Projects.
+                Decoded Web: Web Development Services
               </p>
             </div>
           </div>
