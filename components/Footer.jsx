@@ -9,7 +9,7 @@ function Footer() {
 	return (
 		<>
         <div id="footer" className="bg-bg_image6 bg-cover border-4 border-t-red-700">
-			<div className="bg-[#dad5d556] px-2 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
+			<div className=" px-2 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20 bg-[#ffffffb5]">
                 
 				<div className="p-5">
 					<ul>
