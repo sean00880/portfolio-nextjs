@@ -26,7 +26,7 @@ const Projects = () => {
         <ProjectItem
             title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
             backgroundImg={grllc}
-            projectUrl='/grllc'
+            projectUrl='/grandparon'
             tech='React, NextJS, Github, Vercel, Email.JS'
           />
           <ProjectItem
