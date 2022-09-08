@@ -5,9 +5,29 @@ import AboutImg from '../public/assets/about.jpg';
 import Marquee from "react-fast-marquee";
 import GlitchText from "./glitch-text4";
 import {src} from "./bg.png";
+import {useEffect} from 'react';
+import { loadStripe } from '@stripe/stripe-js';
+
+// Make sure to call `loadStripe` outside of a component’s render to avoid
+// recreating the `Stripe` object on every render.
+loadStripe(
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+);
 
 
 const Payments = () => {
+  useEffect(() => {
+    // Check to see if this is a redirect back from Checkout
+    const query = new URLSearchParams(window.location.search);
+    if (query.get('success')) {
+      console.log('Order placed! You will receive an email confirmation.');
+    }
+
+    if (query.get('canceled')) {
+      console.log('Order canceled -- continue to shop around and checkout when you’re ready.');
+    }
+  }, []);
+
   return (
     <div id='services' className='relative w-full p-2 flex items-center py-16 bg-bg_image3 bg-cover bg-fixed'>
       <div className='py-20 px-2 max-w-[1240px] relative m-auto md:block grid-cols-3 gap-8 bg-bg_image8 bg-cover bg-fixed border-double border-4 rounded-sm rounded-tl-[80px] rounded-br-[80px] border-red-700'>
@@ -23,18 +43,22 @@ const Payments = () => {
           </p><hr/>
         </div>
         <div className=' w-[80%] flex-col xl:flex-row  h-auto m-auto shadow-xl shadow-gray-700 rounded-xl flex items-center justify-center p-4 '>
-          <div className='flex leading-20 flex-col border-2 border-black  h-full w-full xl:h-[75vw] 2xl:h-[55vw] xl:w-[23vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd]'>
+          <form action="/api/checkout_sessions" method="POST" className='flex leading-20 flex-col border-2 border-black  h-full w-full xl:h-[75vw] 2xl:h-[55vw] xl:w-[23vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd]'>
             <h2 className='my-2 mt-auto'>Basic Website Build & Setup</h2><hr/>
             <h4 className='my-2 mt-auto'>Website built and deployed from start to finish with focus on responsiveness, UI design, UX and functionality. Responsive. <div className='bg-black p-4 m-3 text-white rounded-br-[31px] rounded-tl-[31px] rounded-tr-[8px] rounded-bl-[8px] leading-14'><div className='bg-[#e9e9e9] text-black xl:rounded-br-[110px] xl:rounded-tl-[110px] rounded-br-[40px] rounded-tl-[40px] px-3 my-14'> Example Websites:</div> Local Small Business, Salon, Store Front, Simple Blog, Professional Portfolio, SaaS Product Store, etc.</div></h4>
             <h2 className='mt-auto'>$399.99</h2>
-            <button className="text-center border-2 bg-[#b13c3c] border-black mt-auto mb-2 bottom-4 h-[5vw] text-lg">Purchase This</button>
-          </div>
-          <div className='flex leading-20 flex-col border-2 border-black h-full w-full xl:h-[75vw] xl:w-[23vw] 2xl:h-[55vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd] '>
+            
+            <button type="submit" role="link" className="text-center border-2 bg-[#b13c3c75] border-black mt-auto mb-2 bottom-4 h-[5vw] text-lg">Purchase This</button>
+          </form>
+        
+          
+          <form action="/api/checkout_sessions2" method="POST" className='flex leading-20 flex-col border-2 border-black h-full w-full xl:h-[75vw] xl:w-[23vw] 2xl:h-[55vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd] '>
             <h2 className='my-2 mt-auto'>Premium Website Build & Setup</h2><hr/>
             <h4 className='my-2 mt-auto'>Multi-Page website built and deployed from start to finish with focus on usability, UI design, UX, functionality, responsiveness and SEO. <br></br>Highly optimized for lead-generation and sales conversion.<div className='bg-black p-4 m-3 text-white rounded-br-[31px] rounded-tl-[31px] rounded-tr-[8px] rounded-bl-[8px]'><div className='bg-[#e9e9e9] text-black xl:rounded-br-[110px] xl:rounded-tl-[110px] rounded-br-[40px] rounded-tl-[40px] px-3 my-14'> Example Websites:</div> Local Business, Handyman Services, Huge Store Fronts, Complex Blogs, Professional Portfolio, SaaS Product Store, eCommerce store, NFT Landing Page.</div></h4>
             <h2 className='mt-auto'>$699.99</h2>
-            <button className="text-center border-2 bg-[#b13c3c] border-black mt-auto mb-2 bottom-4 h-[5vw] text-lg">Purchase This</button>
-          </div>
+            
+            <button type="submit" role="link" className="text-center border-2 bg-[#b13c3c72] border-black mt-auto mb-2 bottom-4 h-[5vw] text-lg">Purchase This</button>
+          </form>
         </div>
       </div>
     </div>
