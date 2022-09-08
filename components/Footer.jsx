@@ -14,7 +14,7 @@ function Footer() {
 				<div className="p-5">
 					<ul>
 						<p className="text-gray-800 uppercase font-bold text-3xl pb-6">
-							Shantanu <span className="text-[#aa283c]">Dwivedi</span>
+							Decoded <span className="text-[#aa283c]">Web</span>
 						</p>
 						<div className="flex gap-6 pb-5">
 							<FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />

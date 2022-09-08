@@ -27,7 +27,7 @@ const Container = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    color: white;
+    color: #dfe7eb;
 
     left: -2px;
     text-shadow: -1px 0 #d660d8;
