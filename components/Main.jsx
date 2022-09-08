@@ -10,13 +10,13 @@ const Main = () => {
     <div id='home' className='w-full lg:h-screen text-center bg-[#bd1240] bg-bg_image2 bg-center bg-cover bg-fixed'>
       <div className='max-w-[1240px] leading-20 pt-40 w-full mx-auto p-2 flex justify-center items-center bg-[#1313139e]'>
         <div >
-        <h2 className='py-4 pl-7 pr-14 leading-20 text-[#e7e7e7] bg-[#252424] text-center rounded-tl-[110px] rounded-br-[110px]'><h1 className="text-gray-200 uppercase font-bold pb-6">
+        <h1 className='py-4 pl-7 pr-14 leading-20 text-[#e7e7e7] bg-[#252424] text-center rounded-tl-[110px] rounded-br-[110px]'><h1 className="text-gray-200 uppercase font-bold pb-6">
 							Decoded <h1 className="text-[#aa283c]">Web</h1>
-						</h1><hr/>Web Development Services</h2>
-        <p className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center'>
+						</h1><hr/>Web Development Services</h1>
+        <p className='uppercase text-md leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center'>
             Portfolio
           </p>
-          <h1 className='py-4 leading-20 text-[#bd1240]'>presented by <br/><span className='text-gray-200 leading-20'>Shantanu Dwivedi</span><br/><span className='text-[#58f643bc] leading-20 '>a.k.a.</span><span className='text-[#141414] leading-20'><GlitchText>Sean</GlitchText></span></h1>
+          <h2 className='py-4 leading-20 text-[#bd1240]'>Founded by <br/><span className='text-gray-200 leading-20'>Shantanu Dwivedi</span><br/><span className='text-[#58f643bc] leading-20 '>a.k.a.</span><span className='text-[#141414] leading-20'><GlitchText>Sean</GlitchText></span></h2>
                 
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

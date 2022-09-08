@@ -12,7 +12,7 @@ function Footer() {
 			<div className=" px-2 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20 bg-[#ffffffb5]">
                 
 				<div className="p-5">
-					<ul>
+					<ul >
 						<p className="text-gray-800 uppercase font-bold text-3xl pb-6">
 							Decoded <span className="text-[#aa283c]">Web</span>
 						</p>
@@ -27,10 +27,10 @@ function Footer() {
 					</ul>
 				</div>
 				<div className="p-5">
-					<ul>
+					<ul >
 						<p className="text-gray-800 font-bold text-2xl pb-4">Navigate</p>
 						<Link href='/#home'>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-[#aa283c] cursor-pointer">
+						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-[#aa283c] cursor-pointer ">
 							Home
 						</li></Link>
 						<Link href='/#about'>
