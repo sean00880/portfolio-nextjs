@@ -24,7 +24,7 @@ const Accordion = () => {
           <h2><GlitchText>FAQ</GlitchText></h2>
           <hr className='mt-4'/>
           </div>
-        <h2 className='py-4 mt-4 text-[#d7d7d7] bg-red-700 align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Frequently Asked Questions</h2>
+        <h2 className='py-4 mt-4 text-[#d7d7d7] bg-[#52ce69c2] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Frequently Asked Questions</h2>
           {Data.map((item, index) => {
             return (
               <>

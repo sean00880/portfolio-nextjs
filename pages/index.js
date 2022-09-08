@@ -8,6 +8,7 @@ import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import Payments from '../components/Payments'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 export default function Home() {
   return (
     <div >
@@ -23,6 +24,7 @@ export default function Home() {
       <Projects />
       <Payments />
       <Faq />
+      <Contact />
       <Footer />
 
     </div>
