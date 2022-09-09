@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
+import Img from '../public/assets/photo.png';
 import Marquee from "react-fast-marquee";
 import GlitchText from "./glitch-text2";
 import {src} from "./bg.png";
@@ -19,13 +20,15 @@ const About = () => {
           
           <h2><br></br> <span className='text-[#b13c3c] mt-3 relatives'>|</span> <span className='about-title text-[#959494] mt-4'>Front-End Developer</span></h2>
           <h2 className='mx-10 leading-10 py-4 text-[#b33939] mt-4 text-center'>Introduction</h2><Marquee gradientColor='rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)' className='bg-[#1c1b1b] text-[#f2eded] w-full --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) --gradient-width:200px;'>|| Web-Developer ⊛ NFT Creator ⊛ NFT Community Founder ⊛ Artist ⊛ Athlete ⊛ Shopify Dropshipping Expert ⊛ Digital Graphics Desinger </Marquee>
+          
           <p className='mx-10 leading-10 indent-2 py-2 bg-[#272727] p-2 px-10 text-[#a2cb83] font-bold rounded-tl-[10px] rounded-br-[10px] mt-2 border-[#d660d8] border-2'>
           / / Web Developer with extensive focus on UI/UX design and optimal functionality / / 
           </p>
-          <p className='mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
+          
+          <p className='flex mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
 
           
-
+          
           I specialize in creating static Web Applications using HTML, CSS and JavaScript, as well as dynamic web applications using JavaScript Front-End libraries, frameworks, Content Management Systems (CMS), and more. As a freelancing content creator, I place high prirotization on aesthetic design as well as proper functionality. I am an active leader in the NFT space and am the founder, developer and artist of an NFT community that offers Web Development as a utility service.
             
           </p>

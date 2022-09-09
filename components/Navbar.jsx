@@ -51,8 +51,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? 'fixed w-full h-25 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-25 z-[100]'
       }
     >
       <div className='flex justify-between items-center w-full h-[130%] px-2 2xl:px-16 bg-nav border-t-4 border-b-4 [background-position-y:100px]'>
@@ -69,27 +69,27 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-6 hidden xl:flex'>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+          <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-5 hidden xl:flex'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#home' passHref>Home</Link>
             </li>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#about' passHref>About</Link> 
             </li>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#skills' passHref>Skills</Link>
             </li>
             
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#projects' passHref>Projects</Link>
             </li>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#services' passHref>Services</Link>
             </li>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/resume' passHref target='_blank'>Resume</Link>
             </li>
-            <li className='bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 py-7 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#footer' passHref> Contact</Link>
             </li>
           </ul>

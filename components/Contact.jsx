@@ -22,13 +22,13 @@ const Contact = () => {
 
   return (
     <>
-    <div id='skills' className='w-full lg:h-screen p-2 py-16 bg-[#f1f1f1] bg-bg_image10 bg-cover bg-fixed'>
+    <div id='skills' className='py-16 w-full lg:h-screen bg-[#f1f1f1] bg-bg_image11 bg-contain bg-center bg-no-repeat bg-fixed'>
       <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center bg-[#c7b7ba98] border-double border-2 rounded-sm border-gray-800' >
-      <div className='uppercase text-xl tracking-widest text-[#f4f4f4]'>
+      <div className='uppercase text-xl tracking-widest text-[#ce3636]'>
           <h2><GlitchText>Contact</GlitchText></h2>
           <hr></hr>
           </div>
-          <h2 className='py-4 mt-4 text-[#cd40b3] bg-[#1a1a1a] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Submit a Quote Request/Connect with Us</h2>
+          <h2 className='py-4 mt-4 text-[#638d5e] bg-[#1a1a1a] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Submit a Quote Request/Connect with Us</h2>
       
       <form ref={form} onSubmit={sendEmail} className='flex-col'>
         <div className='m-2 flex flex-col'>
@@ -37,7 +37,7 @@ const Contact = () => {
         <input className='my-2 h-10 rounded-sm border-2 border-black' type="email" placeholder="Email" name="email" />
         <input className='my-2 h-10 rounded-sm border-2 border-black' type="text" placeholder="Subject" name="subject"/>
         <textarea
-          className=''
+          className='border-2 border-[#aa283c]'
           type="text"
           rows={6}
           placeholder="Message"

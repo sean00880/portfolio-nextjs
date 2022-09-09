@@ -16,9 +16,10 @@ const Main = () => {
         <p className='uppercase text-md leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center'>
             Portfolio
           </p>
-          <h2 className='py-4 leading-20 text-[#bd1240]'>Founded by <br/><span className='text-gray-200 leading-20'>Shantanu Dwivedi</span><br/><span className='text-[#58f643bc] leading-20 '>a.k.a.</span><span className='text-[#141414] leading-20'><GlitchText>Sean</GlitchText></span></h2>
-                
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <h2 className='mt-[16vh] mb-[5vh] tracking-widest leading-20 text-[#bd1240] m-auto'>Founded by <br/><span className='text-gray-200 leading-20'>Shantanu Dwivedi</span><br/><span className='text-[#438f39bc] leading-20 '>a.k.a.</span><span className='text-[#141414] leading-20'><GlitchText>Sean</GlitchText></span></h2>
+          <div className='my-6 text-xl text-black font-bold rounded-xl bg-white'>Need a website? <span className="text-[#aa283c]"><Link href='/#services' passHref>Check out my services</Link></span> </div>
+          <div className='flex items-center justify-between max-w-[330px] m-auto'>
+            
             <a
               href='https://www.linkedin.com/in/decodedweb/'
               target='_blank'

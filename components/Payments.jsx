@@ -76,7 +76,7 @@ const Payments = () => {
           <Image
               src={StripeLogo}
               alt='/'
-              className='cursor-pointer flex flex-row justify-center text-center bg-white rounded-xl'              
+              className='flex flex-row justify-center text-center bg-white rounded-xl'              
               priority='true'
               width='150px'
               height='150px'
