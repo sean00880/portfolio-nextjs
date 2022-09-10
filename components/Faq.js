@@ -37,6 +37,7 @@ const Accordion = () => {
                     <p>{item.answer}</p>
                     </div>
                 ) : null}
+                
               </>
             );
           })}

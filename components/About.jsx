@@ -25,14 +25,14 @@ const About = () => {
           / / Web Developer with extensive focus on UI/UX design and optimal functionality / / 
           </p>
           
-          <p className='flex mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
+          <p className='flex font-bold mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
 
           
           
           I specialize in creating static Web Applications using HTML, CSS and JavaScript, as well as dynamic web applications using JavaScript Front-End libraries, frameworks, Content Management Systems (CMS), and more. As a freelancing content creator, I place high prirotization on aesthetic design as well as proper functionality. I am an active leader in the NFT space and am the founder, developer and artist of an NFT community that offers Web Development as a utility service.
             
           </p>
-          <p className='mx-10 indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
+          <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
           My journey as a developer commenced while I was studying Mechanical Engineering at University of Massachusetts--Amherst. After taking keep intrest in static website development, I landed an internship with Bechtel Co.&apos;s IT sector located in New Delhi, India. This internship deployed my programming skills not only in HTML, CSS and JavaScript, but also in other Full-stack technologlies including Ajax, ASP.NET, MVC Frameworks, PHP, etc. At the end of the internship, I was able to create an inventory/asset management software which helped automate the process of logging which devices were issued within the office to the respective emplyees.<br/><br/>I have some strong Full-Stack foundation, however, my focus is primarly on Front-End Development.<br/>
 
           I strive to achieve transformational success for all brands and niches by offering Web Deveoplment services that deploy my expertise in Front-End Programming as well as my artistic background. I create top-of-the-line web applications with unique UI/UX design, customized to fit client&lsquo;s needs.<br>
