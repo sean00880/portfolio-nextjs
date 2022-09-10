@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <>
     <div id='skills' className='py-16 w-full lg:h-screen bg-[#f1f1f1] bg-bg_image11 bg-contain bg-center bg-no-repeat bg-fixed'>
-      <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center bg-[#c7b7ba98] border-double border-2 rounded-sm border-gray-800' >
+      <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center bg-[#c7b7baf7] border-double border-2 rounded-sm border-gray-800' >
       <div className='uppercase text-xl tracking-widest text-[#ce3636]'>
           <h2><GlitchText>Contact</GlitchText></h2>
           <hr></hr>
