@@ -469,30 +469,37 @@ export const faq = [
 
 export const Data = [
   {
+    id:'1',
     question: 'I need a website. What is included in your services?',
     answer: 'Each service includes a search engine optimized website with otpional content creation. Each website is packed with plenty of front-end features with full-stack implementation and consideration. Premium websites will be built using Next.JS, which offers client plus server-side rendering and in-built SEO features, allowing for your pages to load faster and get recognition online through organic social media exposure, ultimately leading to awesome conversion rates.'
   },
   {
+    id:'2',
     question: 'What front-end solutiosn do you offer?',
     answer: 'The simple answer is: Websites for all brands and niches. The focus is on building interfaces that promote your brand and showcase your products and services to maximize growth and bring conversions. I achieve that by integrating best UI/UX practices with proper implementation of technology to create websites that are extremely fast, user-friendly and are eye-catchy. By having a unique user experience and proper user experience, you are guaranteed to leave a great impression on your audience & see transformational gains in your business ventures.'
   },
   {
+    id:'3',
     question: 'How many updates can I make?',
     answer: 'At DECODED Web, the hardwork is done for you so you can focus on your real responsibilities. The goal is to highlight your brand and make it stand out. You get three revisions with the basic package and five free revisions with the premium package. Further changes will require a simple $25 service charge.'
   },
   {
+    id:'4',
     question: 'I need advanced backend features. Will your website allow for that integration? Do you offer back-end?',
     answer: 'DECODED Web specializes in Front-End development, however each website is approached with a full-stack mindset. You can expect a platform where the backend technology can be easily integrated. Back-end support is currently offered, however, the focus here is on providing the front-end tools. You can hire a back-end team to modify the code for back-end additions.'
   },
   {
+    id:'5',
     question: 'How can I get started with my service?',
     answer: 'Navigate to the services tab and choose your desired service. Wait for an email with instructions on exchanging media (text and images). Your website will be ready within 21 days.'
   },
   {
+    id:'6',
     question: 'What are the costs?',
     answer: 'Initial estimations are first generated based on your service requirements, however, after the exact pricing is determined after the first physical consultation.'
   },
   {
+    id:'7',
     question: 'When do you operate?',
     answer: 'We operate 24/7: 24 hours, 7 days a week.'
   }
