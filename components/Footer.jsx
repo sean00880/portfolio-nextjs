@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
+import NavLogo from '../public/assets/logo.png'
 
 function Footer() {
 	return (
@@ -14,6 +15,17 @@ function Footer() {
 				<div className="p-5">
 					<ul >
 						<p className="text-gray-800 uppercase font-bold text-3xl pb-6">
+		<Link href='/' passHref>
+                <a>
+                  <Image
+                    src={NavLogo}
+                    width='150'
+                    height='150'
+                    alt='/'
+                    priority='true'
+                  />
+                </a>
+              </Link>
 							Decoded <span className="text-[#aa283c]">Web</span>
 						</p>
 						<div className="flex gap-6 pb-5">
