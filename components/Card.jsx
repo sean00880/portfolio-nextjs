@@ -13,7 +13,7 @@ const Card = () => {
       options={{
         "client-id": "AbUS3UDeVlG3e5JvSBPx2iCVL81biUiZCaQymapp43Di1Y8npVEi1WZW5w0L2lE9_bR8rf2h_lm5uPmC"
       }}>
-      <PayPalButtons className='bg-[#d7d7d776] mt-auto p-2 rounded-md' createOrder={(data, actions) => {
+      <PayPalButtons className='bg-[#d7d7d776] mt-auto p-2 rounded-md z-0 relative' createOrder={(data, actions) => {
         return actions.order
             .create({
                 purchase_units: [
