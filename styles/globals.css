@@ -31,6 +31,12 @@ h1, h2, h3, marquee, span{
   font-family: "custom";
 }
 
+.about h2{
+  margin: 50px 50px;
+  text-decoration: underline;
+  text-align: center;
+}
+
 body {
   height: 100%;
 }
