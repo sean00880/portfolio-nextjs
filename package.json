@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.7.0",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@paypal/react-paypal-js": "^7.8.1",
     "@stripe/stripe-js": "^1.35.0",
     "emailjs": "^4.0.1",
     "next": "^12.2.5",
