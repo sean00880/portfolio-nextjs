@@ -32,7 +32,7 @@ const About = () => {
           
           </p>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
-          How am I able to create high converting web applications? I achieve this by adopting and utilizing the ideal technology stack and following best programming practices. Next.JS offers an arsenal of tools, including client-side-rendering as well as server-side rendering, inherent SEO optimization, and more. A powerful framework like Next.JS, combined with the vast plethora of libraries available at a developer's disposal allows for beatiful interfaces to emerge that are packed with all of the bells and whistles needed for a stand-out application. The inherent SEO features assist with visibility on search engines, making the application suitable for lead generation or customer acquisition.
+          How am I able to create high converting web applications? I achieve this by adopting and utilizing the ideal technology stack and following best programming practices. Next.JS offers an arsenal of tools, including client-side-rendering as well as server-side rendering, inherent SEO optimization, and more. A powerful framework like Next.JS, combined with the vast plethora of libraries available at a developer&apos;s disposal allows for beatiful interfaces to emerge that are packed with all of the bells and whistles needed for a stand-out application. The inherent SEO features assist with visibility on search engines, making the application suitable for lead generation or customer acquisition.
           </p>
           <h2 className='text-[#181818d1] font-extrabold'>Shaping Your Online Presence</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
@@ -40,8 +40,8 @@ const About = () => {
           Shaping your Online Presence can is crucial in 21st century if you own a business or a brand of any kind. According to <span className='text-red'> <a href="https://visualobjects.com/digital-marketing/blog/benefits-of-local-seo"> Visual Objects</a></span>, consumers report that sixty-one percent (61%) of their internet searches originate from a mobile device, highlighting the prospects for businesses to find new clients through search.
           Younger consumers are more likely than older consumers to conduct informational searches on mobile devices; 57% of those under the age of 35 report conducting at least half of their internet searches from a mobile device, compared to 53% of those between the ages of 35 and 54 and only 31% of those over the age of 55.
 Nearly half of consumers (44%) claim to frequently use search engines to learn more about establishments and services nearby.
-76% of customers will look up a business' website before going to one of its physical locations.
-In fact, 45% of customers are likely to visit a business's physical location after discovering a strong online presence.
+76% of customers will look up a business&apos;s website before going to one of its physical locations.
+In fact, 45% of customers are likely to visit a business&apos;s physical location after discovering a strong online presence.
 </p>
 <h2 className='text-[#181818d1] font-extrabold'>The Product</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
