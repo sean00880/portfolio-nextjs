@@ -17,6 +17,7 @@ Highly optimized for lead-generation and sales conversion.<div className='bg-bla
       <PayPalButtons className='bg-[#d7d7d776] mt-auto p-2 rounded-md' createOrder={(data, actions) => {
         return actions.order
             .create({
+                
                 purchase_units: [
                     {
                         amount: {
@@ -25,7 +26,13 @@ Highly optimized for lead-generation and sales conversion.<div className='bg-bla
                     },
                 ],
             })
-    }}/>
+    }}
+    onApprove={async (data, actions) => {
+            const details = await actions.order.capture();
+            const name = details.payer.name.given_name;
+            alert("Transaction completed by " + name);
+          }}
+    />
     </PayPalScriptProvider>
     
   </div>
