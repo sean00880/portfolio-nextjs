@@ -8,6 +8,9 @@ import {src} from "./bg.png";
 import {useEffect} from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import StripeLogo from '../public/assets/stripelogo.png'
+import {PayPalScriptProvider, PayPalButtons} from "@paypal/react-paypal-js"
+import Card from './Card'
+import Card2 from './Card2'
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
@@ -54,33 +57,9 @@ const Payments = () => {
         </div>
         <div className=' text-center align-middle w-[80%] flex-col xl:flex-row h-auto m-auto shadow-xl shadow-[#dadada] rounded-xl flex items-center justify-center p-4 bg-[#aa38387b]'>
           
+        <Card />
+        <Card2 />
           
-          <form action="/api/checkout_sessions" method="POST" className='flex leading-20 flex-col border-2 border-black  h-full w-full xl:h-[75vw] 2xl:h-[55vw] xl:w-[23vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd] mt-auto'>
-            <h2 className='my-2 mt-auto'>Basic Website Build & Setup</h2><hr/>
-            <h4 className='my-2 mt-auto'>Website built and deployed from start to finish with focus on responsiveness, UI design, UX and functionality. Responsive. <div className='bg-black p-4 m-3 text-white rounded-br-[31px] rounded-tl-[31px] rounded-tr-[8px] rounded-bl-[8px] leading-14'><div className='bg-[#e9e9e9] text-black xl:rounded-br-[110px] xl:rounded-tl-[110px] rounded-br-[40px] rounded-tl-[40px] px-3 my-14'> Example Websites:</div> Local Small Business, Salon, Store Front, Simple Blog, Professional Portfolio, SaaS Product Store, etc.</div></h4>
-            <h2 className='mt-auto'>$399.99</h2>
-            
-            <button type="submit" role="link" className="text-center border-2 bg-[#b13c3c75] border-black mt-auto mb-2 bottom-4 h-[10vw] sm:h-[5vh] text-lg">Purchase This</button>
-            
-          </form>
-        
-          
-          <form action="/api/checkout_sessions2" method="POST" className='flex leading-20 flex-col border-2 border-black h-full w-full xl:h-[75vw] xl:w-[23vw] 2xl:h-[55vw] p-5 m-4 text-center text-black hover:scale-105 ease-in duration-300 bg-[#e4e3e3cd] mt-auto'>
-            <h2 className='my-2 mt-auto'>Premium Website Build & Setup</h2><hr/>
-            <h4 className='my-2 mt-auto'>Multi-Page website built and deployed from start to finish with focus on usability, UI design, UX, functionality, responsiveness and SEO. <br></br>Highly optimized for lead-generation and sales conversion.<div className='bg-black p-4 m-3 text-white rounded-br-[31px] rounded-tl-[31px] rounded-tr-[8px] rounded-bl-[8px]'><div className='bg-[#e9e9e9] text-black xl:rounded-br-[110px] xl:rounded-tl-[110px] rounded-br-[40px] rounded-tl-[40px] px-3 my-14'> Example Websites:</div> Local Business, Handyman Services, Huge Store Fronts, Complex Blogs, Professional Portfolio, SaaS Product Store, eCommerce store, NFT Landing Page.</div></h4>
-            <h2 className='m-auto'>$699.99</h2>
-            
-            <button type="submit" role="link" className="text-center border-2 bg-[#b13c3c72] border-black mt-auto mb-2 bottom-4 h-[10vw] sm:h-[5vh] text-lg">Purchase This</button>
-            
-          </form> 
-          <Image
-              src={StripeLogo}
-              alt='/'
-              className='flex flex-row justify-center text-center bg-white rounded-xl'              
-              priority='true'
-              width='150px'
-              height='150px'
-            /> 
         </div>
         
       </div>
