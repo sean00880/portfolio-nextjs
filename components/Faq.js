@@ -19,7 +19,7 @@ const Accordion = () => {
   return (
     <>
     <div id='projects' className='w-full h-[full] pb-5 bg-bg_image10 bg-center bg-no-repeat bg-fixed border-white border-t-2'>
-      <div className='mt-20 mb-20 py-20 max-w-[1240px] mx-auto px-2 bg-[#212020] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[10px] rounded-tr-[10px] border-2 border-[#f0e9ea95]'>
+      <div className='mt-20 mb-20 h-[110vh] py-20 max-w-[1240px] mx-auto px-2 bg-[#212020] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[10px] rounded-tr-[10px] border-2 border-[#f0e9ea95]'>
       <div className='uppercase text-xl tracking-widest text-[#b94747]'>
           <h2><GlitchText>FAQ</GlitchText></h2>
           <hr className='mt-4'/>
@@ -37,8 +37,7 @@ const Accordion = () => {
                     <p>{item.answer}</p>
                     </div>
                 ) : null}
-                
-              </>
+                </>
             );
           })}
       </div>
