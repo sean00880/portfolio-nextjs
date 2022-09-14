@@ -15,7 +15,7 @@ module.exports = {
         "bg_image5": "url('/assets/sample2.png')",
         "bg_image6": "url('/assets/sample7.png')",
         "bg_image7": "url('/assets/tech.jpg')",
-        "bg_image8": "url('/assets/red.png')",
+        "bg_image8": "url('/assets/red.webp')",
         "bg_image9": "url('/assets/sample6.png')",
         "bg_image10": "url('/assets/bg.webp')",
         "bg_image11": "url('/assets/skull.jpg')",
