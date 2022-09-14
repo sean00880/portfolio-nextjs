@@ -55,7 +55,7 @@ const Payments = () => {
         <p>Your website will be ready within 14-21 days and delivered through GitHub Pages. <br/>
         </p>
         </div>
-        <div className=' text-center align-middle w-[80%] flex-col xl:flex-row h-auto m-auto shadow-xl shadow-[#dadada] rounded-xl flex items-center justify-center p-4 bg-[#aa38387b]'>
+        <div className=' text-center align-middle w-[80%] flex-col xl:flex-row h-auto m-auto shadow-xl shadow-[#dadada] rounded-xl flex items-center justify-center p-4 bg-[#aa38387b] mt-6 py-8'>
           
         <Card />
         <Card2 />
