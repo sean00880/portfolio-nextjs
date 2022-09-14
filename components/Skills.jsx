@@ -39,7 +39,7 @@ const Skills = () => {
           <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center '>
               <div className='m-auto'>
-                <Image src={Css} width='64px' height='64px' alt='/' priority='true' />
+                <Image src={Css} width='64px' height='64px' alt='/' loading='lazy' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
@@ -49,7 +49,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Bootstrap} width='64px' height='64px' alt='/' className='bg-white rounded-lg' priority='true'/>
+                <Image src={Bootstrap} width='64px' height='64px' alt='/' className='bg-white rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Bootstrap</h3>
@@ -59,7 +59,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Javascript} width='64px' height='64px' alt='/' className='bg-black rounded-lg' priority='true'/>
+                <Image src={Javascript} width='64px' height='64px' alt='/' className='bg-black rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>JavaScript</h3>
@@ -69,7 +69,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ReactImg} width='64px' height='64px' textalt='/' className='bg-black rounded-lg' priority='true'/>
+                <Image src={ReactImg} width='64px' height='64px' textalt='/' className='bg-black rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>React</h3>
@@ -79,7 +79,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Tailwind} width='64px' height='64px' alt='/' className='bg-black rounded-lg' priority='true'/>
+                <Image src={Tailwind} width='64px' height='64px' alt='/' className='bg-black rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Tailwind</h3>
@@ -91,7 +91,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Firebase} width='64px' height='64px' alt='/' className='bg-black rounded-lg' />
               </div>
-              <div className='flex flex-col items-center justify-center' priority='true'>
+              <div className='flex flex-col items-center justify-center' loading='lazy'>
                 <h3>Firebase</h3>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Sanity} width='64px' height='64px' alt='/' className='bg-black rounded-lg' priority='true'/>
+                <Image src={Sanity} width='64px' height='64px' alt='/' className='bg-black rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Sanity</h3>
@@ -109,7 +109,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Github} width='64px' height='64px' alt='/' className='bg-white rounded-lg' priority='true'/>
+                <Image src={Github} width='64px' height='64px' alt='/' className='bg-white rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Github</h3>
@@ -119,7 +119,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={NextJS} width='64px' height='64px' alt='/' className='bg-white rounded-lg' priority='true' />
+                <Image src={NextJS} width='64px' height='64px' alt='/' className='bg-white rounded-lg' loading='lazy' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Next.JS</h3>
@@ -129,7 +129,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={WordPress} width='64px' height='64px' alt='/' className='bg-black rounded-lg' priority='true'/>
+                <Image src={WordPress} width='64px' height='64px' alt='/' className='bg-black rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>WordPress</h3>
@@ -139,7 +139,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Photoshop} width='64px' height='64px' alt='/' className=' rounded-lg' priority='true'/>
+                <Image src={Photoshop} width='64px' height='64px' alt='/' className=' rounded-lg' loading='lazy'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Photoshop CC</h3>
