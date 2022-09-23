@@ -5,4 +5,9 @@ const nextConfig = {
   mode: 'jit',
 }
 
-module.exports = nextConfig
+module.exports = {
+  experimental: {
+    runtime: 'experimental-edge',
+  },
+};
+
