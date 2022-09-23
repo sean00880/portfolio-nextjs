@@ -21,7 +21,7 @@ const Skills = () => {
     <div id='skills' className='w-full h-auto p-2 py-16 bg-[#f1f1f1] bg-bg_image bg-cover bg-fixed'>
       <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center rounded-tr-[10%] rounded-bl-[10%] border-[#b11b3498] border-double border-4 rounded-sm bg-[#00000090]' >
       <div className='uppercase text-xl text-center tracking-widest text-[#f4f4f4]'>
-          <h2><GlitchText>Skills</GlitchText></h2>
+          <h2><GlitchText>Stack</GlitchText></h2>
           <hr></hr>
           </div>
         <h2 className='py-4 text-center'>Technologies Deployed:</h2>
