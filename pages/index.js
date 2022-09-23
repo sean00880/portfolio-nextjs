@@ -10,6 +10,10 @@ import Payments from '../components/Payments'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 
+
+
+export const config = { unstable_runtimeJS: false}
+
 export default function Home() {
   return (
     <div >
