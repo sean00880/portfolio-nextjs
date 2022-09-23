@@ -74,7 +74,7 @@ const Navbar = () => {
               <Link href='/#home' passHref>Home</Link>
             </li>
             <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
-              <Link href='/#about' passHref>About</Link> 
+              <Link href='/#about' passHref>Mission</Link> 
             </li>
             <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-tl-[20px] rounded-br-[30px] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#skills' passHref>Skills</Link>
@@ -151,7 +151,7 @@ const Navbar = () => {
               </Link>
               <Link href='/#about' passHref>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
+                  Mission
                 </li>
               </Link>
               <Link href='/#skills' passHref>
@@ -163,11 +163,6 @@ const Navbar = () => {
               <Link href='/#projects' passHref>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
-                </li>
-              </Link>
-              <Link href='/resume' target = "_blank" passHref>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
                 </li>
               </Link>
               <Link href='/#services' passHref>
