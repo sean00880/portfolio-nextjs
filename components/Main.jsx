@@ -14,10 +14,10 @@ const Main = () => {
 							DECODED <span className="text-[#aa283c]">Web</span>
 						</span><hr/>Web Development Services</h1>
         <p className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center'>
-           Digital Design, Development and Marketing Agency
+           Digital Design, Web Development, Content Creation and Online Marketing Agency
           </p>
           <h2 className='mt-[30vh] mb-[5vh] tracking-widest leading-20 text-[#bd1240] m-auto '>Founded by<span className='text-[#141414]'><GlitchText>Sean Dwivedi</GlitchText></span></h2>
-          <div className='p-7 my-6 text-2xl text-black font-bold rounded-xl bg-white'>Need assistance with web or web3 services? Check out<span className="text-[#aa283c]"><Link href='/#services' passHref> offered services</Link>.</span> </div>
+          <div className='p-7 my-6 text-2xl text-black font-bold rounded-xl bg-white'>Need assistance with Web or Web3 services? Check out<span className="text-[#aa283c]"><Link href='/#services' passHref> offered services</Link>.</span> </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto'>
             
             <a
