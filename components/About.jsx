@@ -26,7 +26,7 @@ const About = () => {
           <h2 className='text-[#181818d1] font-extrabold'>Digital Solutions That Work</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
           
-          The focus here at DECODED Web is to provide unique digital solutions that will truly enhance your customers' browsing experience and drastically improve your business or brand's online presence. We design, develop and create digital content that will highlight your brand in it's best light. 
+          The focus here at DECODED Web is to provide unique digital solutions that will truly enhance your customers&apos; browsing experience and drastically improve your business or brand&apos;s online presence. We design, develop and create digital content that will highlight your brand in it&apos;s best light. 
           
           </p>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
@@ -42,7 +42,7 @@ In fact, 45% of customers are likely to visit a business&apos;s physical locatio
 </p>
 <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
           
-          This means a website that exhibits great 'User Interface Design' (UI), addresses ideal 'User Experience' (UX) needs and is optimized for searches (Search Engine Optimization or SEO) will organically help you target your desired audience and allow you to showcase your brand at its very best. This means broader exposure to your brand and hire number of leads and conversions.
+          This means a website that exhibits great &apos;User Interface Design&apos; (UI), addresses ideal &apos;User Experience&apos; (UX) needs and is optimized for searches (Search Engine Optimization or SEO) will organically help you target your desired audience and allow you to showcase your brand at its very best. This means broader exposure to your brand and hire number of leads and conversions.
 </p>
 <h2 className='text-[#181818d1] font-extrabold'>High Production Quality</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#2b2a2a] mt-4'>
