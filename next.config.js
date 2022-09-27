@@ -9,5 +9,7 @@ module.exports = {
   experimental: {
     runtime: 'experimental-edge',
   },
+  images: {
+    domains: ['cdn.pixabay.com', 'media.giphy.com', 'i.ibb.co'],
+},
 };
-
