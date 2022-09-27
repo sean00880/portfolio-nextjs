@@ -10,6 +10,6 @@ module.exports = {
     runtime: 'experimental-edge',
   },
   images: {
-    domains: ['cdn.pixabay.com', 'media.giphy.com', 'i.ibb.co'],
+    domains: ['cdn.pixabay.com', 'media.giphy.com', 'i.ibb.co', 'cdn-icons-png.flaticon.com'],
 },
 };
