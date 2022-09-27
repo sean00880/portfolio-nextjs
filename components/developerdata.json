@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Sean",
+    "service1": "Fullstack Web Development",
+    "service2": "NFT Design",
+    "service3": "Logo Design",
+    "service4": "Branding & Marketing",
+    "img": "https://i.ibb.co/S5N73sr/Sean1.png",
+    "img2": "https://i.ibb.co/nkSvcxM/grandparons1.jpg",
+    "bio": "Web Developer from Virginia, USA with expertise in creating lead-optimized websites and applications for all physical or online businesses and brands. Offers additional support in project execution and management.",
+    "bio2": "Services include: Website Design and Setup, Front-end interface design",
+    "link": "https://www.decodedweb.us/#projects",
+    "link2": "https://www.twitter.com/nft_seandecoded/"
+  },
+  {
+    "title": "Kevin",
+    "link": "https://kal1209-cool-portfolio.netlify.app/",
+    "link2": "https://www.twitter.com/",
+    "service1": "Web3 Project Development",
+    "service2": "Fullstack Web Development",
+   
+    "img": "https://i.ibb.co/WB6M6NC/Coolkull4.webp",
+    "img2": "https://i.ibb.co/XstcbVD/Kevin1.jpg",
+    "bio": "Web Developer from California, USA with expertise in creating Web-3 based applications and tools with extensive focus on UI, UX and performance.",
+    "bio2": "Services include: Web3/Crypto based websites, apps and tools."
+  },
+
+  {
+    "title": "Kal",
+    "link": "https://www.behance.net/thehawkeye",
+    "link2": "https://www.twitter.com/",
+    "service1": "Blockhain Development",
+    "service2": "Game Development",
+    "api": "Axios",
+    "img": "https://i.ibb.co/vjK6xV3/avatar.png",
+    "img2": "https://i.ibb.co/31nt4Sx/blockchain.jpg",
+    "bio": "Developer with hand-on expertise in blockchain and game development.",
+    "bio2": "Services include: Graphic Design, Web3/Crypto based projects."
+  }
+]

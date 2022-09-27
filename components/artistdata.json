@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Fanibah",
+    "link": "",
+    "service1": "2D/3D Design and Animation",
+    "service2": "Video Creation",
+    "service3": "Sculpting",
+    "service4": "Asset Creation",
+    "api": "Axios",
+    "img": "https://i.ibb.co/py618Bm/Fanny.jpg",
+    "img2": "https://i.ibb.co/mzB8BLV/fanny2.jpg",
+    "bio": " Professional 3d Generalist, Artist and Sculptor from Nigeria with expertise in creating and design 2D and 3D designs.",
+    "bio2": "Services include: 3d Modeling, Rigging, Texturing, Lightning and Rendering (with realistic characters, interior and exterior environment), 2D or 3D Animation Video, Explainer Video, Comic Video, Cartoon Music Video, Realistic Video, etc."
+  },
+  {
+    "title": "Elijah",
+    "link": "https://www.behance.net/thehawkeye",
+    "link2": "https://www.twitter.com/nft_seandecoded/",
+    "service1": "Graphic Design",
+    "service2": "Web3 Project Development",
+    "api": "Axios",
+    "img": "https://i.ibb.co/p0QmjWT/csk.png",
+    "img2": "https://i.ibb.co/5TGwVWp/bird.png",
+    "bio": "Graphic designer from Serbia with added experience in Web Development, Image Manipulation and Banner Creation.",
+    "bio2": "Services include: Graphic Design, Web3/Crypto based projects."
+  }
+]
