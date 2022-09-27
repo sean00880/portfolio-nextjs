@@ -29,9 +29,9 @@ const Card = ({ project }) => {
         <hr />
         
           <Image width={600} height={400}  src={project.img2} className="bg-[#dcdcdcea] h-[38vh] m-4 p-4 flex" layout="responsive" alt="" />
-          <h5 className='my-10 text-md md:text-lg'>{project.bio}</h5>
-          <hr />
-          <h5 className='absolute bottom-4 left-0 p-3 mx-3 text-md md:text-lg rounded-2xl bg-[#ebeaead9] font-black text-[#612323]'>{project.bio2}</h5>
+          <h5 className='my-10 text-md md:text-lg h-[18vh]'>{project.bio}</h5>
+          <hr className=''/>
+          <h5 className='absolute bottom-4 left-0 p-5 mx-3 text-md md:text-lg rounded-2xl bg-[#ebeaead9] font-black text-[#612323]'>{project.bio2}</h5>
       </div>
       <div
         style={CardStyle}
@@ -39,10 +39,10 @@ const Card = ({ project }) => {
         className="CardFront bg-[#e1e1e1db] grid-cols-3 relative min-h-[87vh] md:min-h-[93vh] xl:min-h-[90vh] justify-between h-auto border-2 border-[#00000082] rounded-2xl m-3 text-black">
 
                 <div>
-                  <div className='h-[30vh] w-full p-5  border-4 '>
+                  <div className='h-[30vh] w-full p-5'>
                 <Image width={525} height={525} src={project.img} className="items-center relative h-[30vh] rounded-2xl m-4 p-8 flex" />
                 </div>
-          <h2 className='text-center lg:text-3xl tracking-widest mt-[16vh] lg:mt-[18vh] text-md md:text-md'>{project.title}</h2>
+          <h2 className='text-center lg:text-3xl tracking-widest mt-[16vh] lg:mt-[18vh] text-md md:text-md bg-[#141414] text-white'>{project.title}</h2>
                 <hr className='text-black mb-1'/>
                 <h3 className='text-center text-sm md:text-md xl:text-lg'>{project.service1}</h3>
                 <h3 className='text-center text-sm md:text-md xl:text-lg'>{project.service2}</h3>
@@ -51,8 +51,8 @@ const Card = ({ project }) => {
                 <div className=''>
                 <span className='text-center text-black bottom-0 absolute p-5 text-sm md:text-lg'><hr/>Links:<br/>
                 <div className='p-3'>
-                <span><a href="https://www.behance.net/thehawkeye" className='inline-flex left-5 absolute'><FaClipboard className='text-sm md:text-md rounded-[xl] mx-3'/>Portfolio</a></span><br/>
-                <span><a href="https://www.behance.net/thehawkeye" className='inline-flex left-5 absolute'><FaTwitter className='text-sm md:text-md rounded-[xl] mx-3'/>Twitter</a></span><br/>
+                <span><a href={project.link} className='inline-flex left-5 absolute'><FaClipboard className='text-sm md:text-md rounded-[xl] mx-3'/>Portfolio</a></span><br/>
+                <span><a href={project.link2} className='inline-flex left-5 absolute'><FaTwitter className='text-sm md:text-md rounded-[xl] mx-3'/>Twitter</a></span><br/>
                 </div >
                 Website development for all businesses and niches.</span>
                 
