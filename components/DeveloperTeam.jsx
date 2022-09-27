@@ -42,7 +42,7 @@ const Card = ({ project }) => {
                   <div className='h-[30vh] w-full p-5'>
                 <Image width={525} height={525} src={project.img} className="items-center relative h-[30vh] rounded-2xl m-4 p-8 flex" />
                 </div>
-          <h2 className='text-center lg:text-3xl tracking-widest mt-[16vh] lg:mt-[18vh] text-md md:text-md'>{project.title}</h2>
+          <h2 className='text-center lg:text-3xl tracking-widest mt-[16vh] lg:mt-[18vh] text-md md:text-md bg-[#141414] text-white'>{project.title}</h2>
                 <hr className='text-black mb-1'/>
                 <h3 className='text-center text-sm md:text-md xl:text-lg'>{project.service1}</h3>
                 <h3 className='text-center text-sm md:text-md xl:text-lg'>{project.service2}</h3>
