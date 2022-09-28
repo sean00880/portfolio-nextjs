@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
 const Banner = dynamic(()=>import('../components/Banner'))
 const About = dynamic(()=>import('../components/About'))
 const Main = dynamic(()=>import('../components/Main'))
@@ -7,6 +8,7 @@ const Projects = dynamic(()=>import('../components/Projects'))
 const Faq = dynamic(()=>import('../components/Faq'))
 const Contact = dynamic(()=>import('../components/Contact'))
 const Footer = dynamic(()=>import('../components/Footer'))
+const Navbar = dynamic(()=>import('../components/Navbar'))
 
 
 export default function Home() {
