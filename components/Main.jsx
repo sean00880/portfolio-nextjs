@@ -6,6 +6,8 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import GlitchText from "./glitch-text3";
 import Image from "next/image";
 
+export const config = { unstable_runtimeJS: false}
+
 const Main = () => {
   return (
     <div id='home' className='pb-10 w-full h-auto text-center bg-bg_image10 lg:bg-bg_image2 bg-cover bg-fixed'>
