@@ -1,28 +1,13 @@
-import dynamic from 'next/dynamic'
 import Head from 'next/head'
-
+import About from '../components/About'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
-
-const Banner = dynamic(()=>import('../components/Banner'), {
-  ssr: false,
-})
-const About = dynamic(()=>import('../components/About'), {
-  ssr: false,
-})
-const Skills = dynamic(()=>import('../components/Skills'), {
-  ssr: false,
-})
-const Projects = dynamic(()=>import('../components/Projects'), {
-  ssr: false,
-})
-const Faq = dynamic(()=>import('../components/Faq'))
-const Contact = dynamic(()=>import('../components/Contact'), {
-  ssr: false,
-})
-const Footer = dynamic(()=>import('../components/Footer'), {
-  ssr: false,
-})
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+import Footer from '../components/Footer'
+import Faq from '../components/Faq'
+import Contact from '../components/Contact'
+import Banner from '../components/Banner'
 
 export default function Home() {
   return (
