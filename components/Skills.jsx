@@ -15,6 +15,7 @@ import Photoshop from '../public/assets/skills/photoshop.png';
 import Bootstrap from '../public/assets/skills/bootstrap.png';
 import GlitchText from "./glitch-text";
 
+export const config = { unstable_runtimeJS: false}
 
 const Skills = () => {
   return (
