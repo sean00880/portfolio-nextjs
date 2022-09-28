@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import GlitchText from "./glitch-text3";
 import Image from "next/image";
 
-
+export const config = { unstable_runtimeJS: false };
 
 const Main = () => {
   return (
