@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/lib/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/lib/fa';
 import GlitchText from "./glitch-text3";
 import Image from "next/image";
 
