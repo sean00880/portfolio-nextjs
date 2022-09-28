@@ -6,6 +6,7 @@ const nextConfig = {
 }
 
 module.exports = {
+  compress: true,
   experimental: {
     runtime: 'experimental-edge',
   },
