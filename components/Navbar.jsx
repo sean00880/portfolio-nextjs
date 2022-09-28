@@ -68,7 +68,7 @@ const Navbar = () => {
             />
           </a>
         </Link>
-        <div>
+        <div onClick={handleNav}>
           <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-5 hidden xl:flex'>
             <li className='h-auto text-center bg-bg_image6 bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#about' passHref>Mission</Link> 
@@ -103,9 +103,9 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {/* Overlay */}
-      <div
+      <div 
         className={
-          nav ? 'xl:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'xl:hidden fixed left-0 top-0 w-full bg-black/70' : ''
         }
       >
         {/* Side Drawer Menu */}
