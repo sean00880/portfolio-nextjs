@@ -8,6 +8,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import NavLogo from '../public/assets/logo.png'
 import GlitchText from "./glitch-text4";
 
+export const config = { unstable_runtimeJS: false };
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -56,7 +58,7 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-[130%] px-2 2xl:px-16 bg-nav border-t-4 border-b-4 [background-position-y:100px]'>
-        <Link href='/'>
+        <Link href='/' prefetch='false'>
           <a>
             <Image
               src={NavLogo}
@@ -118,7 +120,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/' passHref>
+              <Link href='/' passHref prefetch='false'>
                 <a>
                   <Image
                     src={NavLogo}
@@ -149,7 +151,7 @@ const Navbar = () => {
                   Mission
                 </li>
               </Link>
-              <Link href='/team' passHref>
+              <Link href='/team' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Team
                 </li>
@@ -170,7 +172,7 @@ const Navbar = () => {
                   Services
                 </li>
               </Link>
-              <Link href='/#contact' passHref>
+              <Link href='/#contact' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
@@ -199,7 +201,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact' passHref>
+                <Link href='/#contact' passHref prefetch='false'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
