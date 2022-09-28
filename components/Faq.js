@@ -4,8 +4,6 @@ import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 import GlitchText from "./glitch-text3";
 
-export const config = { unstable_runtimeJS: false}
-
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);
 
