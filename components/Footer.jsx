@@ -7,6 +7,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import NavLogo from '../public/assets/logo.png'
 
+export const config = { unstable_runtimeJS: false}
+
 function Footer() {
 	return (
 		<>
@@ -119,5 +121,7 @@ function Footer() {
 		</>
 	);
 }
+
+
 
 export default Footer;
