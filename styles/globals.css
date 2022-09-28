@@ -39,6 +39,7 @@ h1, h2, h3, marquee, span{
 
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 iframe{
