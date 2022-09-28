@@ -7,8 +7,6 @@ import Review from '../public/assets/review.jpg';
 import Marquee from "react-fast-marquee";
 import GlitchText from "./glitch-text2";
 
-export const config = { unstable_runtimeJS: false}
-
 const About = () => {
   return (
     <div id='about' className=' relative w-full p-2 flex items-center py-16 bg-bg_image bg-cover bg-fixed'>
