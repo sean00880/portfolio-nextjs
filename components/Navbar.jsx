@@ -8,6 +8,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import NavLogo from '../public/assets/logo.png'
 import GlitchText from "./glitch-text4";
 
+export const config = { unstable_runtimeJS: false}
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
