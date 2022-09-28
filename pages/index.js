@@ -10,6 +10,8 @@ const Contact = dynamic(()=>import('../components/Contact'))
 const Footer = dynamic(()=>import('../components/Footer'))
 const Navbar = dynamic(()=>import('../components/Navbar'))
 
+export const config = { unstable_runtimeJS: false}
+
 
 export default function Home() {
   return (
