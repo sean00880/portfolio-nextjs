@@ -11,11 +11,6 @@ import grllc from '../public/assets/projects/grllc.png'
 import ProjectItem from './ProjectItem';
 import GlitchText from "./glitch-text5";
 
-
-export const config = { unstable_runtimeJS: false}
-
-
-
 const Projects = () => {
   return (
     <div id='projects' className='w-full pb-5 bg-bg_image5 bg-fixed bg-cover border-white border-t-2'>
