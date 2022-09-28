@@ -13,7 +13,7 @@ module.exports = {
         "bg_image3": "url('/assets/sample.png')",
         "bg_image4": "url('/assets/bg4.jpg')",
         "bg_image5": "url('/assets/sample2.png')",
-        "bg_image6": "url('/assets/sample7.webp')",
+        "bg_image6": "url('https://ncf-ec2-east-32-hv.xconvert.com/file/converter/download/thpc6GfiASu-z-0-y-6334778ac8e6ad457a4b7201.webp')",
         "bg_image7": "url('/assets/tech.jpg')",
         "bg_image8": "url('/assets/red.png')",
         "bg_image9": "url('/assets/sample6.png')",
