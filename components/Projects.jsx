@@ -12,6 +12,9 @@ import ProjectItem from './ProjectItem';
 import GlitchText from "./glitch-text5";
 
 
+export const config = { unstable_runtimeJS: false}
+
+
 
 const Projects = () => {
   return (
