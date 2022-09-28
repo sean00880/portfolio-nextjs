@@ -4,8 +4,6 @@ import { useState } from 'react';
 import Popup from "./Popup.js";
 import GlitchText from "./glitch-text5";
 
-export const config = { unstable_runtimeJS: false}
-
 const Contact = () => {
     const form = useRef();
   
