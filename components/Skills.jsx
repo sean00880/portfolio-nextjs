@@ -15,8 +15,6 @@ import Photoshop from '../public/assets/skills/photoshop.png';
 import Bootstrap from '../public/assets/skills/bootstrap.png';
 import GlitchText from "./glitch-text";
 
-export const config = { unstable_runtimeJS: false}
-
 const Skills = () => {
   return (
     <div id='skills' className='w-full h-auto p-2 py-16 bg-[#f1f1f1] bg-bg_image bg-cover bg-fixed'>
