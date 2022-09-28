@@ -146,7 +146,7 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase text-red-800 font-extrabold'>
-              <Link href='/#about' passHref>
+              <Link href='/#about' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Mission
                 </li>
@@ -157,17 +157,17 @@ const Navbar = () => {
                 </li>
               </Link>
               
-              <Link href='/#projects' passHref>
+              <Link href='/#projects' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
                 </li>
               </Link>
-              <Link href='/resume' target = "_blank" passHref>
+              <Link href='/resume' target = "_blank" passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
               </Link>
-              <Link href='/services' passHref>
+              <Link href='/services' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Services
                 </li>
