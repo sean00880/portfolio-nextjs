@@ -2,7 +2,7 @@ import React from "react";
 import ReactCardFlip from "react-card-flip";
 import Data from "./artistdata.json";
 import FaTwitter from 'react-icons/lib/fa/twitter';
-import FaClipboard from 'react-icons/lib/fa/clipboard';
+import FaClipboard from 'react-icons/lib/fa';
 import team from "../pages/team";
 import Image from "next/image";
 
