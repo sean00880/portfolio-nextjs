@@ -1,20 +1,20 @@
-import Head from 'next/head'
-import About from '../components/About'
-import Main from '../components/Main'
-import Navbar from '../components/Navbar'
-import Skills from '../components/Skills'
-import Projects from '../components/Projects'
-import Footer from '../components/Footer'
-import Faq from '../components/Faq'
-import Contact from '../components/Contact'
-import Banner from '../components/Banner'
+import dynamic from 'next/dynamic'
+const Banner = dynamic(()=>import('../components/Banner'))
+const About = dynamic(()=>import('../components/About'))
+const Main = dynamic(()=>import('../components/Main'))
+const Skills = dynamic(()=>import('../components/Skills'))
+const Projects = dynamic(()=>import('../components/Projects'))
+const Faq = dynamic(()=>import('../components/Faq'))
+const Contact = dynamic(()=>import('../components/Contact'))
+const Footer = dynamic(()=>import('../components/Footer'))
+
 
 export default function Home() {
   return (
     <div >
       <Head>
         <title>Decoded Web | Web Services</title>
-        <meta name="description" content="Web services for brands and niches" />
+        <meta name="description" content="Web services for all brands and niches | Websites, digital design, marketing & more" />
         <link rel="icon" href="/favicon.ico" />
         <head>
           
