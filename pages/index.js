@@ -9,8 +9,6 @@ import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Banner from '../components/Banner'
 
-export const config = { unstable_runtimeJS: false}
-
 export default function Home() {
   return (
     <div >
