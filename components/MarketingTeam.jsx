@@ -1,8 +1,8 @@
 import React from "react";
 import ReactCardFlip from "react-card-flip";
 import Data from "./marketingdata.json";
-import FaTwitter from 'react-icons/lib/fa';
-import FaClipboard from 'react-icons/lib/fa';
+import FaTwitter '../public/assets/social.png';
+import FaClipboard from '../public/assets/portfolio.png';
 import team from "../pages/team";
 import Image from "next/image";
 
