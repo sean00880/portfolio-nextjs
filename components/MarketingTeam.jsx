@@ -49,7 +49,7 @@ const Card = ({ project }) => {
                 <div className=''>
                 <span className='text-center text-black bottom-0 absolute p-5 text-sm md:text-lg'><hr/>Links:<br/>
                 <div className='p-3'>
-                <span><a href={project.link} className='inline-flex left-5 absolute'><Image src='/../public/assets/portfolio.png' className='text-sm md:text-md rounded-[xl] mx-3'/>Portfolio</a></span><br/>
+                <span><a href={project.link} className='inline-flex left-5 absolute'><Image src='https://i.ibb.co/Rbgfgbz/social.png' className='text-sm md:text-md rounded-[xl] mx-3'/>Portfolio</a></span><br/>
                 <span><a href={project.link2} className='inline-flex left-5 absolute'><Image width="25" height="25" src='https://i.ibb.co/LYtQfX4/portfolio.png' className='text-sm md:text-md rounded-[xl] mx-3'/>Social Media</a></span><br/>
                 </div >
                 Website development for all businesses and niches.</span>
