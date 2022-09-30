@@ -19,7 +19,7 @@ const Main = () => {
           </h3>
           <Image className='mx-auto m-auto' src='https://i.ibb.co/cFN21G9/entrepreneur.png' width={300} height={300}/>
           <h2 className='mb-[5vh] tracking-widest leading-20 text-[#bd1240] m-auto '>Web & Digital Services Offered by Talented <span className='text-[#141414]'><GlitchText>Professionals</GlitchText></span></h2>
-          <div className='p-7 my-6 text-2xl text-black font-bold rounded-xl bg-white'>Need assistance with Web or Web3 services? Check out<span className="text-[#aa283c]"><Link href='/#services' passHref> offered services</Link>.</span> </div>
+          <div className='p-7 my-6 text-2xl text-black font-bold rounded-xl bg-white'>Need assistance with Web or Web3 services? Check out<span className="text-[#aa283c]"><Link href='/services' passHref> offered services</Link>.</span> </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto'>
             
             <a
