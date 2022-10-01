@@ -14,27 +14,27 @@
   },
   {
     "title": "Coming Soon",
-    "link": "&#47;",
-    "link2": "&#47;",
-    "service1": "&#47;",
-    "service2": "&#47;",
+    "link": "/;",
+    "link2": "/",
+    "service1": "/",
+    "service2": "/",
    
-    "img": "&#47;",
-    "img2": "&#47;",
-    "bio": "&#47;",
-    "bio2": "&#47;"
+    "img": "/",
+    "img2": "/;",
+    "bio": "/",
+    "bio2": "/"
   },
 
   {
     "title": "Coming Soon;",
-    "link": "&#47;",
-    "link2": "&#47;",
-    "service1": "&#47;",
-    "service": "&#47;",
-    "api": "&#47;",
-    "img": "&#47;",
-    "img2": "&#47;",
-    "bio": "&#47;",
-    "bio2": "&#47;"
+    "link": "/",
+    "link2": "/",
+    "service1": "/",
+    "service": "/",
+    "api": "/",
+    "img": "/",
+    "img2": "/",
+    "bio": "/",
+    "bio2": "/"
   }
 ]
