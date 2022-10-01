@@ -36,7 +36,7 @@ const grandparon = () => {
             This is a special project built using Next.JS and takes advantage of its powerful static generation, Server-side rendering, page routing and SEO functionalities. The project excels at displaying content dynamically and effectively.<br></br><br></br> With usability, efficiency and design being some of the application&apos;s key strengths, it is fair to conclude that this kind of a Next.JS application is ideal for marketing purposes.
           </p>
           <a
-            href='https://github.com/sean00880/onlinemarketing'
+            href='https://www.grandparonsllc.com/'
             target='_blank'
             rel='noreferrer'
           >
