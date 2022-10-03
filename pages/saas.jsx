@@ -36,13 +36,6 @@ const saas = () => {
             This prototype project aims to replicate a minimalistic Online Marketing &apos;Software-as-a-Service&apos; (SaaS) application. Best programming practices were applied in order to design a consistent, responsive and modern UI interface. This single-page application was built in React and utilized a wide range of in-built libraries and tools including styled-components, hooks ( for instance &apos;useState&apos;) and router dom implementation.
           </p>
           <a
-            href='https://github.com/sean00880/onlinemarketing'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
             href='https://sean00880.github.io/onlinemarketing/'
             target='_blank'
             rel='noreferrer'
