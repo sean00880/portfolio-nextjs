@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import grllc from '../public/assets/projects/grllc.png';
+import grllc from '../public/assets/projects/alsllc.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import GlitchText from "../components/glitch-text3";
@@ -24,8 +24,8 @@ const alsllc = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Grandpa Ron&apos;s Lawns & Landscape, LLC</h2>
-          <h3>&#47;&#47; Complete Website/Webapp for a Landscaping Business based in Columbus, Ohio&#47;&#47;</h3>
+          <h2 className='py-2'>All Landscaping Services, LLC</h2>
+          <h3>&#47;&#47; Complete Business Website/Webapp for a Landscaping Business based in Westminster, Maryland&#47;&#47;</h3>
         </div>
       </div>
 
@@ -33,10 +33,10 @@ const alsllc = () => {
         <div className='col-span-4 md:col-span-3 lg:col-span-4'>
           <h2 className='mt-2 text-black'><GlitchText>Overview</GlitchText></h2><hr/>
           <p className='mt-2 text-left'>
-            This is a special project built using Next.JS and takes advantage of its powerful static generation, Server-side rendering, page routing and SEO functionalities. The project excels at displaying content dynamically and effectively.<br></br><br></br> With usability, efficiency and design being some of the application&apos;s key strengths, it is fair to conclude that this kind of a Next.JS application is ideal for marketing purposes.
-          </p>
+            This project utilizes dynamic page routes in order to make the best use onpage SEO features offered by Next.JS. <br></br><br></br> The websites features a unique and modern User Interface design and provides for a high quality and interactive UX experience. The hero section has a distinct call to action, followed by key sections that highlight the business mission and draw attention the the featured products.  
+           </p>
           <a
-            href='https://www.grandparonsllc.com/'
+            href='https://all-landscapin-services.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
