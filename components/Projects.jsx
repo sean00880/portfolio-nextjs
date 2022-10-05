@@ -8,6 +8,7 @@ import theEliteReapers from '../public/assets/projects/theelitereapers.png'
 import portfolio from '../public/assets/projects/portfolio.png'
 import saas from '../public/assets/projects/saas.png'
 import grllc from '../public/assets/projects/grllc.png'
+import alsllc from '../public/assets/projects/alsllc.png'
 import ProjectItem from './ProjectItem';
 import GlitchText from "./glitch-text5";
 
@@ -64,6 +65,12 @@ const Projects = () => {
             title='Portfolio'
             backgroundImg={portfolio}
             projectUrl='/portfolio'
+            tech='React, NextJS, Github, Vercel'
+          />
+              <ProjectItem
+            title='All Landscaping Services - Landscaping Business Website'
+            backgroundImg={alsllc}
+            projectUrl='/alsllc'
             tech='React, NextJS, Github, Vercel'
           />
         </div>
