@@ -75,16 +75,12 @@ const Navbar = () => {
             </li>
             <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/team' passHref>Team</Link>
-            </li>
-            
+            </li>            
             <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#projects' passHref>Projects</Link>
             </li>
             <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/services' passHref>Services</Link>
-            </li>
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
-              <Link href='/resume' passHref target='_blank'>Resume</Link>
             </li>
             <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#footer' passHref> Contact</Link>
@@ -158,11 +154,6 @@ const Navbar = () => {
               <Link href='/#projects' passHref prefetch='false'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
-                </li>
-              </Link>
-              <Link href='/resume' target = "_blank" passHref prefetch='false'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
                 </li>
               </Link>
               <Link href='/services' passHref prefetch='false'>
