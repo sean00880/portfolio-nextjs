@@ -21,10 +21,10 @@ const Accordion = () => {
     <div id='projects' className='w-full h-[full] pb-5 bg-bg_image10 bg-center bg-no-repeat bg-fixed border-white border-t-2'>
       <div className='mt-20 mb-20 h-[full] py-20 max-w-[1240px] mx-auto px-2 bg-[#212020] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[10px] rounded-tr-[10px] border-2 border-[#f0e9ea95]'>
       <div className='uppercase text-xl tracking-widest text-[#b94747]'>
-          <h2><GlitchText>FAQ</GlitchText></h2>
+          <h2 className='text-center'><GlitchText>FAQ</GlitchText></h2>
           <hr className='mt-4'/>
           </div>
-        <h2 className='py-4 mt-4 text-[#d7d7d7] bg-[#52ce69c2] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Frequently Asked Questions</h2>
+        <h2 className='py-4 mt-4 text-center text-[#d7d7d7] bg-[#52ce69c2] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Frequently Asked Questions</h2>
           {Data.map((item, index) => {
             return (
               <>
@@ -33,7 +33,7 @@ const Accordion = () => {
                   <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                 </div>
                 {clicked === index ? (
-                  <div className='rounded-md bg-slate-200 text-black p-2 font-bold'>
+                  <div className='rounded-md bg-slate-200 text-black p-2'>
                     <p>{item.answer}</p>
                     </div>
                 ) : null}

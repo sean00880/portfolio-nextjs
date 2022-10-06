@@ -24,11 +24,11 @@ const Contact = () => {
     <>
     <div id='skills' className='py-16 w-full lg:h-screen bg-[#f1f1f1] bg-bg_image11 bg-contain bg-center bg-no-repeat bg-fixed'>
       <div className='max-w-[1240px] p-2 py-20 mx-auto flex flex-col justify-center bg-[#c7b7baf7] border-double border-2 rounded-sm border-gray-800' >
-      <div className='uppercase text-xl tracking-widest text-[#ce3636]'>
+      <div className='uppercase text-xl text-center tracking-widest text-[#ce3636]'>
           <h2><GlitchText>Contact</GlitchText></h2>
           <hr></hr>
           </div>
-          <h2 className='py-4 mt-4 text-[#638d5e] bg-[#1a1a1a] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Submit a Quote Request/Connect with Us</h2>
+          <h2 className='py-4 mt-4 text-center text-[#638d5e] bg-[#1a1a1a] align-left w-full rounded-tr-border-2 px-10 rounded-br-[10px]  rounded-tl-[10px]'>Submit a Quote Request/Connect with Us</h2>
       
       <form ref={form} onSubmit={sendEmail} className='flex-col'>
         <div className='m-2 flex flex-col'>
