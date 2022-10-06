@@ -13,9 +13,9 @@ import alsllc from '../public/assets/projects/alsllc.png';
 const Main = () => {
   return (
     <div id='home' className='pb-10 w-full h-auto text-center bg-bg_image10 lg:bg-bg_image2 bg-cover bg-fixed'>
-      <div className='px-10 justify-around leading-20 pt-40 md:pt-30 w-full mx-auto p-2 flex flex-col md:flex-row items-center bg-[#1313139e]'>
+      <div className='px-10 justify-around leading-20 pt-40 md:pt-30 w-full mx-auto p-2 flex flex-col lg:flex-row items-center bg-[#1313139e]'>
       <div >
-      <h1 className='py-2 mt-10 pl-7 pr-14 leading-20 text-2xl text-[#e7e7e7] bg-[#252424] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
+      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
         <h3 className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center my-3 rounded-lg'>
@@ -61,7 +61,7 @@ const Main = () => {
       
          </div>
         </div>
-        <div className='mx-6'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
+        <div className='mx-6 bg-[#000000a1] px-10 py-2 rounded-2xl w-full xl:w-[50%] lg:w-[70%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
             title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
             backgroundImg={grllc}
             projectUrl='/grandparon'
@@ -77,7 +77,15 @@ const Main = () => {
           projectUrl='/alsllc'
           tech='React, NextJS, Github, Vercel, Email.JS'
         />
-          <h4 className='text-right'>More Projects</h4>
+        <Link href='/services'>
+          <div className='cursor-pointer'>
+          <span class="inline-block  rounded-full p-2  bg-gradient-to-r from-[#79263f] to-[#be294c] text-white text-sm px-10 border-2 border-white">  More Projects
+        <svg class="w-6 h-6 mx-auto animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            </svg>
+    </span>
+    </div>
+    </Link>
           </div>
       </div>
     </div>
