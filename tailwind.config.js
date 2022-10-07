@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundImage:  theme => ( {
         "nav": "url('/assets/navimage.jpg')",
-        "bg_image": "url('/assets/bg.jpg')",
+        "bg_image": "url('/assets/sample8.png')",
         "bg_image2": "url('/assets/bg.gif')",
         "bg_image3": "url('/assets/sample.png')",
         "bg_image4": "url('/assets/bg4.jpg')",
@@ -19,6 +19,7 @@ module.exports = {
         "bg_image9": "url('/assets/sample6.png')",
         "bg_image10": "url('/assets/bg.webp')",
         "bg_image11": "url('/assets/skull2.webp')",
+        "bg_image12": "url('/assets/sample9.png')",
       })
     },
   },
