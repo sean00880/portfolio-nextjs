@@ -69,9 +69,9 @@ const Main = () => {
             title='ShipWreck Cove - Web3 Community on Telegram'
             backgroundImg={shipwreckcove}
             projectUrl='/shipwreckcove'
-            tech='React, NextJS, Github, Vercel, Email.JS'
+            tech='React, Github, Vercel, Email.JS'
           /><ProjectItem
-          title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
+          title='All Landscaping Services, LLC'
           backgroundImg={alsllc}
           projectUrl='/alsllc'
           tech='React, NextJS, Github, Vercel, Email.JS'
