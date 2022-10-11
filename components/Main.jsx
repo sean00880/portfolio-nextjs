@@ -76,7 +76,7 @@ const Main = () => {
           projectUrl='/alsllc'
           tech='React, NextJS, Github, Vercel, Email.JS'
         />
-        <Link href='/projects'>
+        <Link href='/#projects'>
           <div className='cursor-pointer'>
           <span className="inline-block  rounded-full p-2  bg-gradient-to-r from-[#79263f] to-[#be294c] text-white text-sm px-10 border-2 border-white">  More Projects
         <svg className="w-6 h-6 mx-auto animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
