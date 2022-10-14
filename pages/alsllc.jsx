@@ -13,6 +13,7 @@ const alsllc = () => {
         <title>Decoded Web | Web Development</title>
         <meta name="description" content="Hire me to build your SEO optimzed website or web application (for all niches). By utilizing my background and expertise in full-stack web development, engineering and art, I build top-of-the line applications that possess advanced functionalities and boast cutting edge (UX)User Experience as well as (UI) User Interface design." />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="HaKP2hPcnleHL77Ut6RaNNEYiCsnZOWOTnAuZ3ZyXaE" />
       </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
