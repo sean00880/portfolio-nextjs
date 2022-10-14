@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>Decoded Web | Web Services</title>
         <meta name="description" content="Web services for all brands and niches | Websites, digital design, marketing & more" />
+        <meta name="google-site-verification" content="QUo98Od-nK7lijaTWWyPwGzRiOd7uJBmx7AG2KcGLDg" />
         <link rel="icon" href="/favicon.ico" />
         <head>
           
