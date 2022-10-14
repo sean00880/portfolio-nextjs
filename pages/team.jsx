@@ -15,6 +15,7 @@ const team = ({ }) => {
     <Head>
         <title>Decoded Web | Web Services</title>
         <meta name="description" content="Web Services for all brands and niches" />
+    <meta name="google-site-verification" content="HaKP2hPcnleHL77Ut6RaNNEYiCsnZOWOTnAuZ3ZyXaE" />
         <link rel="icon" href="/favicon.ico" />
     </Head>
     <Navbar />
