@@ -13,9 +13,6 @@ export default function Home() {
         <title>Decoded Web | Web Development Services</title>
         <meta name="description" content="Web & branding services for all brands and niches" />
         <link rel="icon" href="/favicon.ico" />
-        <head>
-          
-        </head>
       </Head>
       <Navbar />
       <Payments/>
