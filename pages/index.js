@@ -17,9 +17,6 @@ export default function Home() {
         <meta name="description" content="Web services for all brands and niches | Websites, digital design, marketing & more" />
         <meta name="google-site-verification" content="HaKP2hPcnleHL77Ut6RaNNEYiCsnZOWOTnAuZ3ZyXaE" />
         <link rel="icon" href="/favicon.ico" />
-        <head>
-          
-        </head>
       </Head>
       <Navbar />
       <Main />
