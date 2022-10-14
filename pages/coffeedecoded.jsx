@@ -10,7 +10,7 @@ const coffeedecoded = () => {
   return (
     <div className='w-full'>
             <Head>
-        <title>Sean | Front-End Developer</title>
+        <title>Decoded Web | Web Development Services</title>
         <meta name="description" content="Hire me to build your SEO optimzed website or web application (for all niches). By utilizing my background and expertise in full-stack web development, engineering and art, I build top-of-the line applications that possess advanced functionalities and boast cutting edge (UX)User Experience as well as (UI) User Interface design." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
