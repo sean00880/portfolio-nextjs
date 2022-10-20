@@ -19,7 +19,8 @@ module.exports = {
         "bg_image9": "url('/assets/sample6.png')",
         "bg_image10": "url('/assets/bg.webp')",
         "bg_image11": "url('/assets/skull2.webp')",
-        "bg_ad": "url('/assets/ad.jpesg')",
+        "bg_ad": "url('/assets/ad.jpeg')",
+        "bg_ad2": "url('/assets/ad2.jpg')",
       })
     },
   },
