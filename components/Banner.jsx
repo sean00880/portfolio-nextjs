@@ -38,7 +38,7 @@ const About = () => {
          
         </div>
         <hr />
-        <div className="flex-col w-auto h-auto bg-white text-center p-2  bg-bg_ad2 bg-fixed"><h2 className='text-gray-600 bg-[#ffffffdf] text-center text-[1.2rem] rounded-2xl tracking-widest leading-[2.4em] border-4 border-double border-black'> <span className='text-[#fdc140] styledtitle'> HALLOWEEN PROMO </span><hr /> <h5 className='text-[1rem] font-extrabold text-red-800'>Valid till November 3rd 2022</h5> Operating a <span className='text-[green]'>Landscaping Business</span>? Professional, high converting websites for only $399.99!<Image
+        <div className="flex-col w-auto h-auto bg-white text-center p-2  bg-bg_ad2 bg-fixed bg-cover"><h2 className='text-gray-600 bg-[#ffffffdf] text-center text-[1.2rem] rounded-2xl tracking-widest leading-[2.4em] border-4 border-double border-black'> <span className='text-[#fdc140] styledtitle'> HALLOWEEN PROMO </span><hr /> <h5 className='text-[1rem] font-extrabold text-red-800'>Valid till November 3rd 2022</h5> Operating a <span className='text-[green]'>Landscaping Business</span>? Professional, high converting websites for only $399.99!<Image
               src={Logo}
               alt='/'
               width='100px'
