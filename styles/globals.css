@@ -42,6 +42,17 @@ body {
   overflow-x: hidden;
 }
 
+.styledtitle {
+       color: rgb(218, 181, 16);
+       text-shadow:
+           1px 1px 0 #000,
+         -1px -1px 0 rgb(213, 211, 211),  
+          1px -1px 0 #000,
+          -1px 1px 0 rgb(26, 25, 25),
+           1px 1px 0 #000;
+          font-size: 33px;
+}
+
 iframe{
   position:absolute;
   top:0;
@@ -60,6 +71,58 @@ iframe{
   line-height: 3;
   text-align: center;
   color: rgb(32, 82, 10);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+  -webkit-text-stroke: .0001em rgba(233, 242, 233, 0.33);
+}
+
+.form input {
+  border-radius: 10px;
+  padding: 0 30px;
+  background: rgb(49, 49, 49);
+  color: rgb(236, 236, 236);
+  font-weight: 900;
+  border-color: rgb(219, 215, 215);
+}
+
+.form  textarea{
+  margin-top: 33px;
+  border-radius: 10px;
+  padding: 0 10px;
+  color: rgb(180, 64, 64);
+  font-weight: 900;
+  background-color: rgb(226, 224, 224);
+  text-align: center;
+  
+}
+
+.shimmer2 {
+  font-weight: 700;
+  font-size: 1.4em;
+  padding: 10px;
+  margin-bottom: 0;
+  line-height: 3;
+  text-align: center;
+  color: rgb(212, 212, 212);
   background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
   background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
   background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
@@ -119,7 +182,7 @@ iframe{
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-[#79263f] to-[#be294c] text-[#cacaca] tracking-wide;
+    @apply bg-gradient-to-r from-[#0e0e0e] to-[#2f2e2e] text-[#d4d4d4] tracking-wide;
   }
 
   p{
