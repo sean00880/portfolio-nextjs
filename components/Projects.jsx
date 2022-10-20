@@ -14,7 +14,7 @@ import GlitchText from "./glitch-text5";
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full pb-5 bg-bg_image bg-fixed bg-cover'>
+    <div id='projects' className='w-full pb-5 bg-bg_image bg-fixed bg-cover p-2'>
       <div className=' py-20 mx-auto px-4 bg-gradient-to-r from-[#fefefe] to-[#959292] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[10px] rounded-tr[10px] border-[#ebebeb46] border-4'>
       <div className='uppercase text-xl tracking-widest text-[#2d2c2d] text-center'>
           <h2><GlitchText>Projects</GlitchText></h2>
