@@ -6,7 +6,7 @@ import Card from './Card'
 import Card2 from './Card2'
 import Contact from './Contact2';
 import Link from 'next/link'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Logo from '../public/assets/logo2.png'
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
