@@ -26,7 +26,7 @@ const Skills = () => {
           <div className='flex flex-column'>
           <div className='w-[50%] rounded-xl bg-white text-black m-2'><h3 className='p-4 indent-8 leading-[42px]'>Our main focus is on creating applications that help with lead-genration. We achieve this by laser focusing on adopting the best programming practices and utilizing the most advanced technologies to address all client needs. We then create and deliver products with innovative design & functionality-centric solutions.</h3><hr /><h3 className='p-4 indent-8 leading-[42px]'>Our primary technology stack includes: Next.JS, GitHub Pages & PhotoShop. Next.JS offers client-side as well as server-side rendering, as well as SEO features, making it the ideal framework for creating high quality applications that perform exceptionally well and attract more customers.</h3></div>
         <div>
-        <h2 className='py-4 text-center text-sm sm:text-md'>Technologies Deployed</h2>
+        <h2 className='py-4 text-center text-sm sm:text-md lg:text-lg'>Technologies Deployed</h2>
         <div className='grid p-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  bg-white text-red-600 border-[.3rem] border-inset border-[#131212de] ring-[#6464649c]'>
             <div className='grid gap-4 justify-center items-center'>
