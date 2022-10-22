@@ -55,7 +55,7 @@ const Navbar = () => {
           : 'fixed w-full h-25 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-[130%] px-2 2xl:px-16 bg-nav border-t-4 border-b-4 [background-position-y:100px]'>
+      <div className='flex justify-between items-center w-full h-[130%] px-2 2xl:px-16 bg-bg_image3 bg-cover border-t-4 border-b-4'>
         <Link href='/' prefetch='false'>
           <a>
             <Image
