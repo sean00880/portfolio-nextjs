@@ -21,7 +21,7 @@ const About = () => {
             <hr className='w-full'></hr>
           </div>
           
-          <h2 className='text-right my-10'><br/><span className='about-title text-[#f4f3f3] my-10 text-right'><span className='text-[#b13c3c] my-10 relatives'>|</span> Empower Your Brand</span>  </h2>
+          <h2 className='text-right my-10'><br/><span className='about-title text-[#f4f3f3] text-[29px] my-10 text-right'><span className='text-[#b13c3c] my-10 relatives'>|</span> Empower Your Brand</span>  </h2>
           <Marquee gradientColor='rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)' className='bg-[#1c1b1b] text-[#f2eded] w-full --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) --gradient-width:200px border-4 leading-10 text-2xl border-[#ffffffcf] tracking-widest'>⊛ Web-Development ⊛ Logo Design ⊛ SEO ⊛ Branding & Brand ManagementMarketing ⊛ Digital Graphic Design ⊛ Video Creation ⊛ Branding & Brand Management </Marquee>
           
           <p className='mx-10 text-center leading-10 indent-2 py-7 bg-[#191919] p-2 px-10 text-[#b9f68a] font-bold rounded-tl-[10px] rounded-br-[10px] my-10 border-[#cecece] border-2'>
