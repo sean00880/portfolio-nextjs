@@ -14,7 +14,7 @@ export const config = {
 const About = () => {
   return (
     <div id='about' className=' relative w-full bg- p-2 flex items-center py-16 bg-[#ffffffed]'>
-      <div className='py-20 px-2 bg-[#0c0c0cf0] w-full relative m-auto md:block grid-cols-3 gap-8 bg-[#00000091] border-double border-4 rounded-sm rounded-tl-[80px] rounded-br-[80px] border-red-'>
+      <div className='py-20 px-2 w-full relative m-auto md:block grid-cols-3 gap-8 bg-[#181818fa] border-double border-4 rounded-sm rounded-tl-[80px] rounded-br-[80px] border-red-'>
         <div className='col-span-3 leading-80'>
           <div className='uppercase leading-80 text-xl tracking-widest text-[#b13c3c]'>
             <h2 className='w-[100%] text-[#f5f5f5] text-center' ><GlitchText>Mission</GlitchText></h2>
