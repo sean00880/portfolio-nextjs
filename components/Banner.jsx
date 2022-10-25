@@ -9,7 +9,7 @@ export const config = {
 
 const About = () => {
   return (
-    <div id='banner' className=' relative w-auto items-center m-2 border-4 border-white pt-8 bg-[#771d1d] rounded-2xl'>
+    <div id='banner' className=' relative w-auto items-center pt-8 bg-[#771d1d]'>
                 <div className='uppercase leading-80 text-xl tracking-widest text-[#b13c3c]'>
             <h2 className=' text-[#e9e6e8] text-center text-[16px]' >Welcome To <Image
               src={Logo}
