@@ -28,7 +28,7 @@ const About = () => {
           Web  Development, Digital Design and Marketing services with extensive focus on UI/UX and functionality optimization. 
           </p>
           <div className='about'>
-          <h2 className='text-[#f5f5f5] font-extrabold relative'>Digital Solutions That Work</h2>
+          <h2 className='text-[#f5f5f5] font-extrabold relative tracking-[5px] leading-[2em]'>Digital Solutions That Work</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#f5f5f5] my-4 flex'>
           
           
@@ -42,7 +42,7 @@ const About = () => {
           How are we able to create high converting web applications? We achieve this by adopting and utilizing the ideal technology stack and following best programming practices. Next.JS offers an arsenal of tools, including client-side-rendering as well as server-side rendering, inherent Search Egnine Optimization (SEO), and more. A powerful framework like Next.JS, combined with the vast plethora of libraries and tools available at an angency&apos;s disposal allows for beatiful interfaces to emerge that are packed with all of the bells and whistles needed for a stand-out applications. The inherent SEO features assist with visibility on search engines, making the application suitable for lead generation and customer acquisition.
           </p>
           <hr />
-          <h2 className='text-[#f5f5f5] font-extrabold text-right'>Websites That Shape Your Online Presence</h2>
+          <h2 className='text-[#f5f5f5] font-extrabold text-right tracking-[5px] leading-[2em]'>Websites That Shape Your Online Presence</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#f5f5f5] my-4'>
           
           Your online presence is crucial in 21st century if you own a business or a brand of any kind. According to <span className='text-red'> <a href="https://visualobjects.com/digital-marketing/blog/benefits-of-local-seo"> Visual Objects</a></span>, consumers report that sixty-one percent (61%) of their internet searches originate from a mobile device.
@@ -58,7 +58,7 @@ In fact, 45% of customers are likely to visit a business&apos;s physical locatio
           This means a website that exhibits great &apos;User Interface Design&apos; (UI), addresses ideal &apos;User Experience&apos; (UX) needs and is optimized for searches (Search Engine Optimization or SEO) will organically help you target your desired audience and allow you to showcase your brand at its very best. This means broader exposure to your brand and hire number of leads and conversions.
 </p>
 <hr />
-<h2 className='text-[#f5f5f5] font-extrabold'>High Production Quality</h2>
+<h2 className='text-[#f5f5f5] font-extrabold tracking-[5px] leading-[2em]'>High Production Quality</h2>
           <p className='mx-10 font-bold indent-7 leading-20 py-2 text-[#f5f5f5] my-4'>
          
           We strive to achieve transformational success for all brands and niches. By utilizing our versatile backgrounds and expertise in various fields that integrate Science, Technology, Engineering, Math (STEM) and art, we build top-of-the line content that boasts originality, excellent performance and professionalism.<br/><br/>Hire us to build your personalized SEO optimzed content today.
