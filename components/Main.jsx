@@ -17,7 +17,7 @@ const Main = () => {
       <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424]  text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
-        <h3 className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center my-3 rounded-lg'>
+        <h3 className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center my-3 rounded-lg tracking-[2px] p-[10px] border-4 border-double'>
            Digital Design, Web Development, Content Creation and Online Marketing Agency
           </h3>
         
