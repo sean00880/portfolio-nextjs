@@ -11,14 +11,14 @@ const About = () => {
   return (
     <div id='banner' className=' relative w-auto items-center m-2 border-4 border-white pt-8 bg-[#771d1d] rounded-2xl'>
                 <div className='uppercase leading-80 text-xl tracking-widest text-[#b13c3c]'>
-            <h2 className=' text-[#e9e6e8] text-center' >Welcome To <Image
+            <h2 className=' text-[#e9e6e8] text-center text-[16px]' >Welcome To <Image
               src={Logo}
               alt='/'
               width='100px'
               height= '90px'
               className='cursor-pointer self-baseline items-baseline align-baseline r-[10px] absolute'
               priority='true'
-            /> Decoded Web <hr /> </h2> <h5 className='text-center text-red-800 bg-white leading-[4rem]'>| Web Development Services |</h5>
+            /> Decoded Web <hr /> </h2> <h5 className='text-center text-red-800 bg-white tracking-[1px] leading-[4rem]'>| Web Development Services |</h5>
             <hr className='w-full'></hr>
           </div>
       <div className='pt-20 w-full relative flex flex-col m-auto lg:flex-row bg-[#0e0d0de9] rounded-sm border-red py-5 border-t-2 border-b-2 border-white'>
