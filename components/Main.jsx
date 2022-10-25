@@ -14,7 +14,7 @@ const Main = () => {
     <div id='home' className='pb-10 w-full h-auto xl:h-[100vh] text-center bg-bg_image10 lg:bg-bg_image2 bg-cover bg-fixed border-b-4'>
       <div className='px-3 justify-around leading-20 pt-[13rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-row items-center bg-[#1313139e]'>
       <div className='h-auto'>
-      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424]  text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
+      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
         <h3 className='uppercase text-sm leading-20 tracking-widest bg-[black] text-[#d0d0d0] text-center my-3 rounded-lg tracking-[2px] p-[10px] border-4 border-double'>
