@@ -34,6 +34,12 @@ const Projects = () => {
             projectUrl='/shipwreckcove'
             tech='React, Github Pages'
           />
+           <ProjectItem
+            title='GREENPOWER Landscaping'
+            backgroundImg={greenpower}
+            projectUrl='/greenpower'
+            tech='Next.js, React, Vercel, Github Pages'
+          />
           <ProjectItem
             title='Shareo - Online Marketing Agency'
             backgroundImg={saas}
