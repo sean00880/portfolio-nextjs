@@ -39,6 +39,7 @@ h1, h2, h3, marquee, span{
 
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .styledtitle {
@@ -101,6 +102,10 @@ iframe{
   color: rgb(236, 236, 236);
   font-weight: 900;
   border-color: rgb(219, 215, 215);
+}
+
+.radial{
+  background: radial-gradient(black, transparent);
 }
 
 .form  textarea{
