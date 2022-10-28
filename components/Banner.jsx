@@ -82,9 +82,9 @@ const About = () => {
         <div className='relative flex justify-evenly p-7 mx-6 rounded-xl bg-white'>
         <Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/>
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>    
-        <Image src='https://i.ibb.co/gdVhdNj/image1.png' width={150} height={150} className='rounded-3xl'/>
+        <Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl'/>
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>
-        <Image src='https://i.ibb.co/gdVhdNj/image1.png' width={150} height={150} className='rounded-3xl'/>
+        <Image src='https://i.ibb.co/Qn4qQKR/website.png' width={150} height={150} className='rounded-3xl'/>
         </div>
         </div>
         </div>
