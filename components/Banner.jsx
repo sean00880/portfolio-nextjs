@@ -70,7 +70,7 @@ const About = () => {
           </div>
         <hr />
         <div className='m-6'>
-        <h2 className='text-md text-center p-8'>Professional custom websites full optimized available at affordable rates!</h2>
+        <h2 className='text-md text-center p-8'>Professional custom websites fully optimized available at affordable rates!</h2>
         <h4 className="bg-white text-center text-red-700 p-12 mx-6 rounded-xl ">
           Operating a business website in the United States can cost between $10,000 - $25,000. According to various sources, setting up a business website alone costs $3,500 on average. <br /> <br />
           While a lot of manpower is involved in website development, we believe website solutions should be accessible to most business owners at affordable rates. <br /><br />
