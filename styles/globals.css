@@ -108,6 +108,18 @@ iframe{
   background: radial-gradient(black, transparent);
 }
 
+.radial2{
+  background: radial-gradient(#624646, transparent);
+  border-radius: 20px;
+  border: 6px double rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.726);
+}
+
+.radial3{
+  background: radial-gradient(#ebebeb9e,#8d5757cf);
+}
+
+
 .form  textarea{
   margin-top: 33px;
   border-radius: 10px;
