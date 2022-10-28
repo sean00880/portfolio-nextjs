@@ -42,7 +42,7 @@ const About = () => {
          
         </div>
         <div className='flex flex-col lg:flex-row radial'>
-        <div className='m-6 bg-[#000000a1] border-4 border-[#f3f3f3] px-3 py-2 rounded-2xl xl:w-[40%] lg:w-[60%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
+        <div className='my-4 bg-[#000000a1] border-4 border-[#f3f3f3] px-3 py-2 rounded-2xl xl:w-[40%] lg:w-[60%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
             title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
             backgroundImg={grllc}
             projectUrl='/grandparon'
