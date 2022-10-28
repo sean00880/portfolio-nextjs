@@ -105,7 +105,7 @@ iframe{
 }
 
 .radial{
-  background: radial-gradient(black, transparent);
+  background: radial-gradient(#301a1a,transparent);
 }
 
 .radial2{
