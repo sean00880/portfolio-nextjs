@@ -80,11 +80,11 @@ const About = () => {
         </h4>
         <h3 className='text-center my-7'>Three Step Process</h3>
         <div className='relative flex justify-evenly p-7 mx-6 rounded-xl bg-white'>
-        <Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/>
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10'><Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>    
-        <Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl'/>
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10'><Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>
-        <Image src='https://i.ibb.co/Qn4qQKR/website.png' width={150} height={150} className='rounded-3xl'/>
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10'><Image src='https://i.ibb.co/Qn4qQKR/website.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact</h3></div> 
         </div>
         </div>
         </div>
