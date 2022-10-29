@@ -37,7 +37,7 @@ const About = () => {
             <div className=' mx-3 py-4 text-sm lg:text-md lg:my-0 w-full'><Image src='https://i.ibb.co/gdVhdNj/image1.png' width={300} height={300} className='rounded-3xl'/><br/> Website Development <hr />- Websites with prioritization on lead generation via focus on UI, UX and functionality. </div><div className='  mx-3 w-full py-4 lg:my-0 text-sm lg:text-md' ><Image src='https://i.ibb.co/3m0cVMd/image2.png' width={300} height={300} className='rounded-3xl'/><br/>Digital Design <hr />- Logo Design, Graphic Design & Branding.</div><div className=' mx-3 py-4 lg:my-0 text-sm w-full lg:text-md'><Image src='https://i.ibb.co/NKT8mWy/image3.png' width={300} height={300} className='rounded-3xl'/><br/>Online Presence Optimization<hr />- Content Setup & Management, Search Engine Optimization. </div>
           </div>   
           </div>
-          <Link href='/services' passhref><button className='flex-row h-20 100vh border-4'>List of Services</button></Link> 
+          <Link href='/services' passhref><button className='flex-row h-20 100vh border-4 px-10'>List of Services</button></Link> 
           </div>
          
         </div>
