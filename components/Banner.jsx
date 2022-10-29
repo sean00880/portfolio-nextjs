@@ -80,11 +80,11 @@ const About = () => {
         </h4>
         <h3 className='text-center my-7'>Three Step Process</h3>
         <div className='relative flex justify-evenly p-7 mx-6 rounded-xl bg-white'>
-        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#dfdfdf] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px]'><Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact for Quotation</h3></div> 
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#dfdfdf] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4'><Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact for Quotation</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>    
-        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#c9c7b1]'><Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Process Order</h3></div> 
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#c9c7b1] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4'><Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Process Order</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>
-        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#101010d1]'><Image src='https://i.ibb.co/Qn4qQKR/website.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Receive Delivered Product</h3></div> 
+        <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#101010d1] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4'><Image src='https://i.ibb.co/Qn4qQKR/website.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Receive Delivered Product</h3></div> 
         </div>
         </div>
         </div>
