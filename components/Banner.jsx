@@ -29,7 +29,7 @@ const About = () => {
        
       <div className='bg-bg_ad bg-cover bg-fixed bg-no-repeat w-auto lg:w-[30%] rounded-2xl p-4 bg-[#181a1882] border-2 border-double'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><button className='p-3 m-3 border-4 '>Contact Us</button></div></div>
        
-       <div className="flex flex-col items-center bg-[#f7f7f7] md:[p-[33px]] rounded-[13px] m-5">
+       <div className="flex flex-col items-center bg-[#f7f7f7] md:[p-[33px]] rounded-[13px] md:m-5">
         
         <div className='flex'>
         <div className=' md:w-[40%] w-[50%] my-6 p-6 text-xl border-4 border-double border-black bg-white text-black rounded-2xl font-black'><h2 className='text-center'>What We Offer?</h2><hr/><div className='my-20 indent-8'>Professional web services catered for your custom needs. </div><hr /> <div className='my-20 indent-8'>Solutions that include full support for content creation as well as setup. </div></div>
