@@ -70,7 +70,7 @@ const About = () => {
           </div>
         <hr />
         <div className='m-6'>
-        <h2 className='text-md text-center p-8'>Professional custom websites fully optimized available at affordable rates!</h2>
+        <h2 className='text-[21px] text-center p-8'>Professional custom websites fully optimized available at affordable rates!</h2>
         <h4 className="bg-white text-center text-red-700 p-12 mx-6 rounded-xl ">
           Operating a business website in the United States can cost between $10,000 - $25,000. According to various sources, setting up a business website alone costs $3,500 on average. <br /> <br />
           While a lot of manpower is involved in website development, we believe website solutions should be accessible to most business owners at affordable rates. <br /><br />
@@ -78,7 +78,7 @@ const About = () => {
           Our affordable pricing allows business owners to get access to SEO optimized websites for only $99 down. This price covers website development, SEO title & description inclusion, canological meta-tag inclusion, hosting and domain purchase as-well-as deployment!
           <br /><br />
         </h4>
-        <h3 className='text-center my-7'>Three Step Process</h3>
+        <h3 className='text-center my-7 text-[21px]'>Three Step Process</h3>
         <div className='relative flex justify-evenly p-7 mx-6 rounded-xl bg-white'>
         <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[20%] bg-[#dfdfdf] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4 border-[#891212]'><Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl'/><h3 className='my-10'>Initiate Contact for Quotation</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl'/>    
