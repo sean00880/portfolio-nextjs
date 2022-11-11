@@ -79,7 +79,7 @@ const About = () => {
           <br /><br />
         </h4>
         <h3 className='text-center my-7 text-[21px]'>Three Step Process</h3>
-        <div className='relative flex flex-col md:flex-row justify-evenly p-7 mx-6 rounded-xl bg-white items-center'>
+        <div className='relative flex flex-col md:flex-row justify-evenly p-7 mx-6 rounded-xl bg-white items-center border-[6px] border-outset border-[#763333b3]'>
         <div className='flex flex-col text-red-700 text-center font-extrabold my-10 p-[26px] w-[50%] md:w-[20%] bg-[#dfdfdf] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4 border-[#891212] items-center'><Image src='https://i.ibb.co/3MDCjpX/contact.png' width={150} height={150} className='rounded-3xl w-[80%]'/><h3 className='my-10'>1 <hr/>Initiate Contact for Quotation</h3></div> 
         <Image src='https://i.ibb.co/P9b4qFk/rightarrow.png' width={100} height={100} className='rounded-3xl w-[40%]'/>    
         <div className='flex flex-col text-[#000000d1] text-center font-extrabold my-10 p-[26px] w-[50%] md:w-[20%] bg-[#c9c7b1] rounded-tl-[13px] rounded-tr-[4px] rounded-br-[13px] rounded-bl-[4px] border-4 border-[#00000042] items-center'><Image src='https://i.ibb.co/YWFL0sM/quote-request.png' width={150} height={150} className='rounded-3xl w-[80%]'/><h3 className='my-10'>2 <hr/>Process Order</h3></div> 
