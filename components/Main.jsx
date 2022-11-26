@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <div id='home' className='pb-10 pt-[10vh] w-full h-auto xl:h-[100vh] text-center bg-bg_image10 lg:bg-bg_image2 bg-cover bg-fixed border-b-4'>
       <div className='px-3 justify-around pt-[6vh] h-[211vh] xl:h-auto leading-20 py-50 sm:py-25 pb-[2rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-row items-center radial3'>
-      <div className='h-auto'>
+      <div className='h-[100vh]'>
       <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
