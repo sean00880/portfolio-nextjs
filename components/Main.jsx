@@ -24,7 +24,7 @@ const Main = () => {
         
           <Image src='https://i.ibb.co/cFN21G9/entrepreneur.png' width={250} height={250}/>
           
-          <div className='p-3 leading-[53px] mb-5 text-xl text-gray-100 font-bold rounded-xl bg-[#222222]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
+          <div className='p-3 leading-[53px] mb-5 text-xl text-gray-100 font-bold rounded-xl bg-[#222222] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
     text-[#f7f1f1]'>Web & Digital Services Offered by Talented Professionals</h2></div>Need assistance with Web or Web3 services? Check out <br /><span className="text-[#aa283c] text-2xl animate-bounce"><Link href='/services' passHref> offered services</Link>.</span> </div>
 
          <div className='flex items-center justify-between max-w-[330px] m-auto my-3'>
