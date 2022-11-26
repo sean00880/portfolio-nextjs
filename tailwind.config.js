@@ -9,7 +9,7 @@ module.exports = {
       backgroundImage:  theme => ( {
         "nav": "url('/assets/navimage.jpg')",
         "bg_image": "url('/assets/bg.jpg')",
-        "bg_image2": "url('/assets/bg.gif')",
+        "bg_image2": "url('/assets/background.png')",
         "bg_image3": "url('/assets/sample.webp')",
         "bg_image4": "url('/assets/bg4.jpg')",
         "bg_image5": "url('/assets/sample2.png')",
