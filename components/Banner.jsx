@@ -27,7 +27,7 @@ const About = () => {
             <hr className='w-full'></hr>
           </div>
             <div>
-              <div className="md:m-4 md:p-7 w-auto relative flex flex-col m-auto lg:flex-row rounded-sm border-red py-5 border-t-2 border-b-2 border-white'>
+              <div className="md:m-4 md:p-7 w-auto relative flex flex-col m-auto lg:flex-row rounded-sm border-red border-t-2 border-b-2 border-white'>
        
       <div className='bg-bg_ad bg-cover bg-fixed bg-no-repeat w-auto lg:w-[30%] rounded-2xl p-4 bg-[#181a1882] border-4 border-solid'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><Link href='/#contact'><button className='p-3 m-3 border-4 '>Contact Us</button></Link></div></div>
        
