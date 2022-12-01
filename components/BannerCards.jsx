@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const CardStyle = {
   border: "3px solid white",
-  height: "53vh",
-  width: "33vh",
+  height: "57vh",
+  width: "30vh",
   lineHeight: "3rem",
   margin: "10px 0",
   justifyContent:"space-evenly",
