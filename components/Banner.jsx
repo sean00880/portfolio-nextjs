@@ -6,6 +6,7 @@ import ProjectItem from './HeroProject';
 import grllc from '../public/assets/projects/grllc.png'
 import shipwreckcove from '../public/assets/projects/shipwreckcove.png';
 import alsllc from '../public/assets/projects/alsllc.png';
+import BannerCards from './BannerCards'
 
 export const config = {
   unstable_runtimeJS: false
@@ -25,6 +26,61 @@ const About = () => {
             /> Decoded Web <hr /> </h2> <h5 className='text-center text-red-800 bg-white leading-[4rem] text-[14px]'>| Web Development Services |</h5>
             <hr className='w-full'></hr>
           </div>
+            <div>
+            <div className='text-[#662828] text-center p-4 text-[14px] bg-white min-h-[100vh]'>
+            <h2 className='underline text-[16px]'>Why Choose Decoded Web?</h2>
+            <h3 className='text-[14px]'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
+              <div className='flex-row text-left m-4'>
+              <div className='flex-col my-2 p-2 leading-10'>
+
+              <BannerCards className='flex card'/>
+                
+              <div className=' text-black  font-extrabold px-6'>
+              1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization's specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
+              </div>  
+              <div className=' text-black font-extrabold px-6'>
+              2) Best programing practices are used to ensure efficiency and security.  
+              </div>  
+              <div className=' text-black font-extrabold px-6'>
+              3) Our websites are very affordable. Website development can cost thousands of dollars. We charge standard one-time payments of as low as $399 for a full website setup and deployment with the option of split and partial payments.   
+              </div>  
+              <div className=' text-black  font-extrabold px-6'>
+              4) We underpromise and overdeliver. We strive to provide value and our biggest priority is customer satisfaction. We offer resources, tools and information for our audience and guide them through the entire process, covering your blind-spots so you can focus on real growth for your organization.
+              </div>  
+                
+              
+              </div>
+              
+              </div>
+              
+              
+            </div>
+            <div className='text-white text-center p-4 text-[14px] '>
+              <h2 className='underline text-[16px]'>High Converting Websites: Let's define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
+              <div className='flex-row text-left m-4'>
+              <div className='flex-col my-2 p-2 leading-10'>
+                
+              <div className=' text-white  font-extrabold px-6'>
+              1) <span className='text-red-300'>User Interface Design (UI)</span>  is used to describe the physical appearance of the website from a design standpoint. 
+              </div>  
+              <div className=' text-white font-extrabold px-6'>
+              2) <span className='text-red-300'>User Experience (UX)</span> refers to the feel of the website (how it navigates and how user intuitive it is).
+              </div>  
+              <div className=' text-white font-extrabold px-6'>
+              3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you'll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
+              </div>  
+              <div className=' text-white  font-extrabold px-6'>
+              4) <span className='text-red-300'>Functionality</span>
+              </div>  
+                
+              
+              </div>
+              
+              </div>
+              
+              
+            </div>
+            </div>
       <div className='w-full relative flex flex-col m-auto lg:flex-row bg-[#0e0d0de9] rounded-sm border-red py-5 border-t-2 border-b-2 border-white'>
        
       <div className='bg-bg_ad bg-cover m-[6px] bg-fixed bg-no-repeat w-auto lg:w-[30%] rounded-2xl p-4 bg-[#181a1882] border-2 border-double'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><Link href='/#contact'><button className='p-3 m-3 border-4 '>Contact Us</button></Link></div></div>
