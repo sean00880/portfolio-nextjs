@@ -44,8 +44,8 @@ const About = () => {
          
         </div>
             <div className='text-[#662828] text-center p-4 text-[14px] bg-white min-h-[100vh]'>
-            <h2 className='underline text-[16px]'>Why Choose Decoded Web?</h2>
-            <h3 className='text-[14px]'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
+            <h2 className='underline'>Why Choose Decoded Web?</h2>
+            <h3 className='text-[19px]'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
 
@@ -72,7 +72,7 @@ const About = () => {
               
             </div>
             <div className='text-white text-center p-4 text-[14px] '>
-              <h2 className='underline text-[16px]'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
+              <h2 className='underline'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
                 
