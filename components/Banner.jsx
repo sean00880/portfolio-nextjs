@@ -8,9 +8,6 @@ import shipwreckcove from '../public/assets/projects/shipwreckcove.png';
 import alsllc from '../public/assets/projects/alsllc.png';
 import BannerCards from './BannerCards'
 
-export const config = {
-  unstable_runtimeJS: false
-};
 
 const About = () => {
   return (
