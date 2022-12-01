@@ -36,7 +36,7 @@ const About = () => {
               <BannerCards className='flex card'/>
                 
               <div className=' text-black  font-extrabold px-6'>
-              1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization's specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
+              1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization&apos;s specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
               </div>  
               <div className=' text-black font-extrabold px-6'>
               2) Best programing practices are used to ensure efficiency and security.  
@@ -56,7 +56,7 @@ const About = () => {
               
             </div>
             <div className='text-white text-center p-4 text-[14px] '>
-              <h2 className='underline text-[16px]'>High Converting Websites: Let's define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
+              <h2 className='underline text-[16px]'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
                 
@@ -67,7 +67,7 @@ const About = () => {
               2) <span className='text-red-300'>User Experience (UX)</span> refers to the feel of the website (how it navigates and how user intuitive it is).
               </div>  
               <div className=' text-white font-extrabold px-6'>
-              3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you'll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
+              3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you&apos;ll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
               </div>  
               <div className=' text-white  font-extrabold px-6'>
               4) <span className='text-red-300'>Functionality</span>
