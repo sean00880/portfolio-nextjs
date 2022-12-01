@@ -45,8 +45,10 @@ const About = () => {
  <div className='bg-bg_ad bg-cover bg-fixed bg-no-repeat w-auto lg:w-[30%] rounded-2xl p-4 bg-[#181a1882] border-4 border-solid'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><Link href='/#contact'><button className='p-3 m-3 border-4 '>Contact Us</button></Link></div></div>
       
             <div className='text-[#662828] text-center p-4 text-[14px] bg-white min-h-[100vh]'>
-            <h2 className='underline'>Why Choose Decoded Web?</h2>
-            <h3 className='text-[19px]'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
+             <div className='my-[8vh]'>
+            <h2 className='underline capitalize '>Why Choose Decoded Web?</h2>
+            <h3 className='text-[19px] capitalize'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
+             </div>
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
 
@@ -73,7 +75,7 @@ const About = () => {
               
             </div>
             <div className='text-white text-center p-4 text-[14px] '>
-              <h2 className='underline'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
+              <h2 className='underline capitalize my-[8vh]'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
                 
