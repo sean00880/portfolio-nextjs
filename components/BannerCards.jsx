@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "React";
 import ReactCardFlip from "react-card-flip";
 import Data from "./bannerData.json";
 import team from "../pages/team";
