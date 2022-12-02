@@ -7,12 +7,17 @@ import grllc from '../public/assets/projects/grllc.png'
 import shipwreckcove from '../public/assets/projects/shipwreckcove.png';
 import alsllc from '../public/assets/projects/alsllc.png';
 import BannerCards from './BannerCards'
+import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide'
+import Fade from 'react-reveal/Fade';
+import HeadShake from 'react-reveal/HeadShake';
 
 
 const About = () => {
   return (
     <div id='banner' className=' relative w-auto items-center m-2 border-4 border-white pt-8 bg-[#222222]'>
                 <div className='uppercase leading-80 text-xl tracking-widest text-[#b13c3c]'>
+    <Slide bottom>
             <h2 className=' text-[#e9e6e8] text-center text-[16px]' >Welcome To <Image
               src={Logo}
               alt='/'
@@ -20,7 +25,11 @@ const About = () => {
               height= '90px'
               className='cursor-pointer self-baseline items-baseline align-baseline r-[10px] absolute'
               priority='true'
-            /> Decoded Web <hr /> </h2> <h5 className='text-center text-red-800 bg-white leading-[4rem] text-[14px]'>| Web Development Services |</h5>
+            /> Decoded Web <hr /> </h2> 
+</Slide>
+<Flip top>
+<h5 className='text-center text-red-800 bg-white leading-[4rem] text-[14px]'>| Web Development Services |</h5>
+</Flip>
             <hr className='w-full'></hr>
           </div>
             <div>
@@ -50,6 +59,7 @@ const About = () => {
               <div className='flex-col my-2 p-2 leading-10'>
 
               <BannerCards className='flex card'/>
+           <Fade left>
                 
               <div className=' text-black  font-extrabold px-6'>
               1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization&apos;s specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
@@ -63,6 +73,7 @@ const About = () => {
               <div className=' text-black  font-extrabold px-6'>
               4) We underpromise and overdeliver. We strive to provide value and our biggest priority is customer satisfaction. We offer resources, tools and information for our audience and guide them through the entire process, covering your blind-spots so you can focus on real growth for your organization.
               </div>  
+</Fade>
                 
               
               </div>
@@ -72,8 +83,10 @@ const About = () => {
               
             </div>
             <div className='text-white text-center p-4 text-[14px] '>
+              <HeadShake>
               <h2 className='underline capitalize my-[8vh]'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
-              <div className='flex-row text-left m-4'>
+</HeadShake>              
+<div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
                 
               <div className=' text-white  font-extrabold px-6'>
