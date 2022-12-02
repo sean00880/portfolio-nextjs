@@ -24,7 +24,7 @@ const Card = ({ project }) => {
       <div
         style={CardStyle}
         onMouseEnter={() => setIsFlipped((prev) => !prev)}
-        className="CardBack bg-[#eeececf8] flex flex-col relative border-4  text-[13px] border-[#f1ececf1] rounded-2xl  p-4 text-[#532121] text-center justify-around align-middle items-center leading-1 font-extrabold"
+        className="CardBack bg-[#eeececf8] relative border-4  text-[13px] border-[#f1ececf1] rounded-2xl  p-4 text-[#532121] text-center justify-around align-middle items-center leading-1 font-extrabold"
       >
         {project.title}
         <hr />
