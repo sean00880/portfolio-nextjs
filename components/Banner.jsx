@@ -53,7 +53,7 @@ const About = () => {
             <div className='text-[#662828] text-center p-4 text-[14px] bg-white min-h-[100vh]'>
            
              <div className='my-[8vh]'>
-           <HeadShake duration={2000}
+           <HeadShake duration={2000}>
             <h2 className='underline capitalize '>Why Choose Decoded Web?</h2>
  </HeadShake>
             <h3 className='text-[19px] capitalize'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
@@ -108,10 +108,10 @@ const About = () => {
               2) <span className='text-red-300'>User Experience (UX)</span> refers to the feel of the website (how it navigates and how user intuitive it is).
               </div>  
               <div className=' text-white font-extrabold px-6'>
-              3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you&apos;ll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
+              3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta-tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you&apos;ll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
               </div>  
               <div className=' text-white  font-extrabold px-6'>
-              4) <span className='text-red-300'>Functionality</span>
+              4) <span className='text-red-300'>Functionality</span> is defined by the ease with which a user may acquire information, traverse your website, interact with it (in a way comparable to UI), and carry out crucial actions that result in conversions.
               </div>  
               </Fade>
               
