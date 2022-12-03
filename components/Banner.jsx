@@ -27,7 +27,7 @@ const About = () => {
               priority='true'
             /> Decoded Web <hr /> </h2> 
 </Slide>
-<Flip top>
+<Flip top duration={2000}>
 <h5 className='text-center text-red-800 bg-white leading-[4rem] text-[14px]'>| Web Development Services |</h5>
 </Flip>
             <hr className='w-full'></hr>
@@ -51,15 +51,19 @@ const About = () => {
  
       
             <div className='text-[#662828] text-center p-4 text-[14px] bg-white min-h-[100vh]'>
+           
              <div className='my-[8vh]'>
+           <HeadShake duration={2000}
             <h2 className='underline capitalize '>Why Choose Decoded Web?</h2>
+ </HeadShake>
             <h3 className='text-[19px] capitalize'>We offer all-in-one, done-for-you solutions that accelerate business growth by strategically tackling lead generation.</h3>
              </div>
+           
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
 
               <BannerCards className='flex card'/>
-           <Fade left>
+           <Fade left duration={2000}>
                 
               <div className=' text-black  font-extrabold px-6'>
               1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization&apos;s specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
@@ -83,12 +87,20 @@ const About = () => {
               
             </div>
             <div className='text-white text-center p-4 text-[14px] '>
-              <HeadShake>
-              <h2 className='underline capitalize my-[8vh]'>High Converting Websites: Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web</h2> 
-</HeadShake>              
+              
+              <div className='my-[8vh]'>
+                <HeadShake duration={2000}>
+            <h2 className='underline capitalize'>High Converting Websites</h2>
+</HeadShake>
+            <h3 className='text-[19px] capitalize'>Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web.</h3>
+             </div>
+               
+              
 <div className='flex-row text-left m-4'>
+  <Fade right duration={2000}>
               <div className='flex-col my-2 p-2 leading-10'>
                 
+              
               <div className=' text-white  font-extrabold px-6'>
               1) <span className='text-red-300'>User Interface Design (UI)</span>  is used to describe the physical appearance of the website from a design standpoint. 
               </div>  
@@ -101,9 +113,10 @@ const About = () => {
               <div className=' text-white  font-extrabold px-6'>
               4) <span className='text-red-300'>Functionality</span>
               </div>  
-                
+              
               
               </div>
+</Fade>
               
               </div>
               
