@@ -97,10 +97,10 @@ const About = () => {
                
               
 <div className='flex-row text-left m-4'>
-  <Fade right duration={2000}>
+  
               <div className='flex-col my-2 p-2 leading-10'>
                 
-              
+              <Fade right duration={2000}>
               <div className=' text-white  font-extrabold px-6'>
               1) <span className='text-red-300'>User Interface Design (UI)</span>  is used to describe the physical appearance of the website from a design standpoint. 
               </div>  
@@ -113,10 +113,10 @@ const About = () => {
               <div className=' text-white  font-extrabold px-6'>
               4) <span className='text-red-300'>Functionality</span>
               </div>  
-              
+              </Fade>
               
               </div>
-</Fade>
+
               
               </div>
               
