@@ -73,19 +73,19 @@ const Navbar = () => {
           </h3>
         <div onClick={handleNav}>
           <ul style={{ color: `white` }} className='font-extrabold bg-opacity-[.3] rounded-md p-5 hidden xl:flex'>
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#about' passHref>Mission</Link> 
             </li>
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/team' passHref>Team</Link>
             </li>            
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#projects' passHref>Projects</Link>
             </li>
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/services' passHref>Services</Link>
             </li>
-            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] rounded-2xl ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
+            <li className='h-auto text-center bg-[#ffffffd9] bg-cover [background-position-y:20px] text-[#d34a4a] border-4 border-[#171717fd] p-3 w-[14vh] ml-10 text-md uppercase hover:border-2 hover:bg-[#202020] hover:bg-bg_image3 hoverbg-cover hover:text-[#d6d6d6] hover:border-[#fafafa]'>
               <Link href='/#footer' passHref> Contact</Link>
             </li>
           </ul>
