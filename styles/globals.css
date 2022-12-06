@@ -220,7 +220,7 @@ iframe{
   }
   
   li {
-    @apply cursor-pointer
+    @apply cursor-pointer font-[custom]
   }
 
   button {
