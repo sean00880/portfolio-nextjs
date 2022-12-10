@@ -11,6 +11,7 @@ const CardStyle = {
   lineHeight: "3rem",
   margin: "10px 0",
   justifyContent:"space-evenly",
+  fontFamily:"custom",
 };
 
 const Card = ({ project }) => {
