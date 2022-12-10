@@ -33,7 +33,7 @@ const About = () => {
             <hr className='w-full'></hr>
           </div>
             <div>
-              <div className='md:m-4 md:p-7 w-auto relative flex flex-col m-auto lg:flex-row rounded-sm border-red border-t-2 border-b-2 border-white'>
+              <div className='w-auto relative flex flex-col m-auto lg:flex-row  border-red border-t-2 border-b-2 border-white'>
        
       
        <div className='flex flex-col items-center bg-[#f7f7f7] rounded-[13px] m-[6px] md:p-7'>
