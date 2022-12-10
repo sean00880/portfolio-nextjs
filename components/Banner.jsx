@@ -36,7 +36,7 @@ const About = () => {
               <div className='w-auto relative flex flex-col m-auto lg:flex-row  border-red border-t-2 border-b-2 border-white'>
        
       
-       <div className='flex flex-col items-center bg-[#f7f7f7] rounded-[13px] m-[6px] md:p-7'>
+       <div className='flex flex-col items-center bg-[#f7f7f7] m-[6px] md:p-7'>
         
         <div className='flex w-[100%]'>
         
@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <Link href='/services' passhref><button className='flex-row h-20 100vh border-4 m-8 p-8'>List of Services</button></Link> 
           </div>
-         <div className='bg-bg_ad bg-cover bg-fixed bg-no-repeat w-auto lg:w-[30%] rounded-2xl p-4 bg-[#181a1882] border-4 border-solid'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><Link href='/#contact'><button className='p-3 m-3 border-4 '>Contact Us</button></Link></div></div>
+         <div className='bg-bg_ad bg-cover bg-fixed bg-no-repeat w-auto lg:w-[30%] p-4 bg-[#181a1882] border-4 border-solid'><div className='bg-[#000000e3] w-full h-full text-center rounded-2xl border-double border-4 p-6'> <h2 className='text-center text-xl font-[900] text-[#549751] p-6 leading-20 shimmer'> Local Business? <hr /> Get an Enterprise Website Developed & Setup for only $99 down!</h2><br /><Link href='/#contact'><button className='p-3 m-3 border-4 '>Contact Us</button></Link></div></div>
         </div>
  
       
