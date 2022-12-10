@@ -62,9 +62,10 @@ const About = () => {
               <div className='flex-row text-left m-4'>
               <div className='flex-col my-2 p-2 leading-10'>
 
-              <BannerCards className='flex card'/>
+              <BannerCards className='flex w-[50%] card xl:w-full'/>
            <Fade left duration={2000}>
-                
+               
+               <div className='flex flex-col w-[50%] xl:w-full'> 
               <div className=' text-black  font-extrabold px-6'>
               1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization&apos;s specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
               </div>  
@@ -76,7 +77,8 @@ const About = () => {
               </div>  
               <div className=' text-black  font-extrabold px-6'>
               4) We underpromise and overdeliver. We strive to provide value and our biggest priority is customer satisfaction. We offer resources, tools and information for our audience and guide them through the entire process, covering your blind-spots so you can focus on real growth for your organization.
-              </div>  
+              </div> 
+               </div> 
 </Fade>
                 
               
