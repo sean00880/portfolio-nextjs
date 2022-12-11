@@ -17,12 +17,13 @@ const Main = () => {
       <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
-        <h3 className='uppercase text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-3 rounded-lg tracking-[8px] p-[17px] border-4 border-double'>
-           Digital Design, Web Development, Content Creation and Online Marketing Agency
+        <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-9 rounded-lg tracking-[8px] p-[17px] border-4 border-double'>
+           High Converting Websites for Local businesses
+<hr/> 10X The Value for 1/10th the price!
           </h3>
         
         
-          <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250} className='my-[10px]'/>
+          <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250} className='my-[10vh]'/>
           
           <div className='p-3 leading-[53px] mb-5 text-xl text-gray-100 font-bold rounded-xl bg-[#222222] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
     text-[#f7f1f1]'>Web & Digital Services Offered by Talented Professionals</h2></div>Need assistance with Web or Web3 services? Check out <br /><span className="text-[#aa283c] text-2xl animate-bounce"><Link href='/services' passHref> offered services</Link>.</span> </div>
