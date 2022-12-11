@@ -20,7 +20,9 @@ const Main = () => {
 
 <div className='flex flex-row' >
 <div className='flex flex-col'>
-	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250} className='my-[10vh]'/>
+	  <div>
+	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250}/>
+	  </div>
         <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-9 rounded-lg tracking-[8px] p-[17px] border-4 border-double'>
            High Converting Websites for Local businesses
 <hr/> 10X The Value for 1/10th the price!
