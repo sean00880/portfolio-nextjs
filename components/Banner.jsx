@@ -60,7 +60,7 @@ const About = () => {
              </div>
            
               <div className='flex-row text-left m-4'>
-              <div className='flex flex-row xl:flex-col my-2 p-2 leading-10'>
+              <div className='flex flex-col md:flex-row xl:flex-col my-2 p-2 leading-10'>
 
               <BannerCards className='flex w-[50%] card xl:w-full'/>
            <Fade left duration={2000}>
