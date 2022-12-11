@@ -14,16 +14,16 @@ const Main = () => {
     <div id='home' className='pb-10 pt-[10vh] w-full h-auto text-center lg:bg-bg_image2 bg-cover bg-fixed border-b-4'>
       <div className='px-3 justify-around pt-[6vh] mt-[6vh] xl:h-auto leading-20 py-50 sm:py-25 pb-[2rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-col items-center radial3'>
       <div className='min-h-[100vh]'>
-      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center rounded-tl-[110px] rounded-br-[110px]'><span className="text-gray-200 font-bold pb-3">
+      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center'><span className="text-gray-200 font-bold pb-3">
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
 
-<div className='flex flex-row bg-[#191919] p-2' >
+<div className='flex flex-col md:flex-row bg-[#191919] p-2' >
 <div className='flex flex-col p-4'>
 	  <div>
 	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250}/>
 	  </div>
-        <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-9 rounded-lg tracking-[8px] p-[17px] border-4 border-double'>
+        <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-9 tracking-[8px] p-[17px] border-4 border-double'>
            High Converting Websites for Local businesses
 <hr/> 10X The Value for 1/10th the price!
           </h3>
@@ -31,7 +31,7 @@ const Main = () => {
         
           
           
-          <div className='p-3 justify-evenly flex flex-col leading-[53px] text-xl text-gray-100 font-bold text-black bg-[#f5f4f4] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
+          <div className='p-3 justify-evenly flex flex-col leading-[53px] text-xl font-bold text-black bg-[#f5f4f4] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
     text-[#f7f1f1]'>Web & Digital Services Offered by Talented Professionals</h2></div>Need assistance with Web or Web3 services? Check out <br /><span className="text-[#aa283c] text-2xl animate-bounce"><Link href='/services' passHref> offered services</Link>.</span> </div>
          
 </div>
@@ -69,7 +69,7 @@ const Main = () => {
       
          </div>
         </div>
-        <div className='m-6 bg-[#000000a1] border-2 border-outset border-[#f3f3f3] px-4 py-6 rounded-2xl w-full xl:w-[40%] lg:w-[60%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
+        <div className='m-6 bg-[#000000a1] border-2 border-outset border-[#f3f3f3] px-4 py-6 w-full xl:w-[40%] lg:w-[60%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
             title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
             backgroundImg={grllc}
             projectUrl='/grandparon'
