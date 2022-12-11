@@ -18,7 +18,7 @@ const Main = () => {
 							DECODED <span className="text-[#aa283c]">Web </span>
 						</span><hr/>Web Development Services</h1>
 
-<div className='flex flex-row bg-[#191919]' >
+<div className='flex flex-row bg-[#191919] p-2' >
 <div className='flex flex-col p-4'>
 	  <div>
 	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250}/>
@@ -31,7 +31,7 @@ const Main = () => {
         
           
           
-          <div className='p-3 justify-evenly flex flex-col leading-[53px] text-xl text-gray-100 font-bold rounded-xl bg-[#f5f4f4] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
+          <div className='p-3 justify-evenly flex flex-col leading-[53px] text-xl text-gray-100 font-bold text-black bg-[#f5f4f4] border-4 border-[#f3f3f3]'> <div className="bg-[#29282812] border-2 border-[#b62f43e8] rounded-2xl display md:display-block"> <h2 className='my-2 py-2 tracking-widest leading-20 text-[#282828] text-xl m-auto px-4 bg-[#c44c4c]
     text-[#f7f1f1]'>Web & Digital Services Offered by Talented Professionals</h2></div>Need assistance with Web or Web3 services? Check out <br /><span className="text-[#aa283c] text-2xl animate-bounce"><Link href='/services' passHref> offered services</Link>.</span> </div>
          
 </div>
