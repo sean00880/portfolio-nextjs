@@ -65,17 +65,17 @@ const About = () => {
               <BannerCards className='flex w-[50%] card xl:w-full'/>
            <Fade left duration={2000}>
                
-               <div className='flex flex-col w-[50%] xl:w-full'> 
-              <div className=' text-black  font-extrabold px-6'>
+               <div className='flex flex-col w-full md:w-[50%] xl:w-[100%] xl:w-full'> 
+              <div className=' text-black  font-extrabold p-6 my-2'>
               1) We use some of the best technologies to develop web applications that produce high quality results. We ensure each of our websites is optimized for lead generation and targeted to the client organization&apos;s specific audinece. Next.JS is utilized in each of our websites to account for proper UI, UX, SEO and functionality.
               </div>  
-              <div className=' text-black font-extrabold px-6'>
+              <div className=' text-black font-extrabold p-6 my-2'>
               2) Best programing practices are used to ensure efficiency and security.  
               </div>  
-              <div className=' text-black font-extrabold px-6'>
+              <div className=' text-black font-extrabold p-6 my-2'>
               3) Our websites are very affordable. Website development can cost thousands of dollars. We charge standard one-time payments of as low as $399 for a full website setup and deployment with the option of split and partial payments.   
               </div>  
-              <div className=' text-black  font-extrabold px-6'>
+              <div className=' text-black  font-extrabold p-6 my-2'>
               4) We underpromise and overdeliver. We strive to provide value and our biggest priority is customer satisfaction. We offer resources, tools and information for our audience and guide them through the entire process, covering your blind-spots so you can focus on real growth for your organization.
               </div> 
                </div> 
