@@ -12,7 +12,7 @@ import alsllc from '../public/assets/projects/alsllc.png';
 const Main = () => {
   return (
     <div id='home' className='pb-10 pt-[10vh] w-full h-auto text-center lg:bg-bg_image2 bg-cover bg-fixed border-b-4'>
-      <div className='px-3 justify-around pt-[6vh] mt-[6vh] xl:h-auto leading-20 py-50 sm:py-25 pb-[2rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-col items-center radial3'>
+      <div className='px-3 justify-around pt-[6vh] mt-[8vh] lg:mt-[6vh] xl:h-auto leading-20 py-50 sm:py-25 pb-[2rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-col items-center radial3'>
       <div className='min-h-[100vh] flex flex-col items-center'>
       <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[white] bg-[#c24a48] border-[3px] border-solid border-[#161616] text-center'><span className="text-[black] font-bold bg-white p-2">
 							DECODED <span className="text-[red]">Web </span>
@@ -23,7 +23,7 @@ const Main = () => {
 	  <div>
 	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250}/>
 	  </div>
-        <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-20 sm:my-9 tracking-[8px] p-[17px] border-4 border-double'>
+        <h3 className='capitalize text-sm leading-20 tracking-widest bg-[#e3e3e3] text-[#7e4f4f] text-center my-20 lg:my-9 tracking-[8px] p-[17px] border-4 border-double'>
            High Converting Websites for Local businesses
 <hr/> 10X The Value for 1/10th the price!
           </h3>
