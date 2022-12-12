@@ -13,9 +13,9 @@ const Main = () => {
   return (
     <div id='home' className='pb-10 pt-[10vh] w-full h-auto text-center lg:bg-bg_image2 bg-cover bg-fixed border-b-4'>
       <div className='px-3 justify-around pt-[6vh] mt-[6vh] xl:h-auto leading-20 py-50 sm:py-25 pb-[2rem] md:pt-30 w-full mx-auto p-2 flex flex-col xl:flex-col items-center radial3'>
-      <div className='min-h-[100vh]'>
-      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[#e7e7e7] bg-[#252424] border-[3px] border-solid border-[#161616] text-center'><span className="text-gray-200 font-bold pb-3">
-							DECODED <span className="text-[#aa283c]">Web </span>
+      <div className='min-h-[100vh] flex flex-col items-center'>
+      <h1 className='py-2 mt-10 pl-14 pr-14 leading-20 text-3xl text-[white] bg-[#c24a48] border-[3px] border-solid border-[#161616] text-center'><span className="text-[black] font-bold bg-white p-2">
+							DECODED <span className="text-[red]">Web </span>
 						</span><hr/>Web Development Services</h1>
 
 <div className='flex flex-col md:flex-row bg-[#191919] p-2' >
