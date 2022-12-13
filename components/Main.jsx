@@ -35,7 +35,7 @@ const Main = () => {
     text-[#f7f1f1]'>Web & Digital Services Offered by Talented Professionals</h2></div>Need assistance with Web or Web3 services? Check out <br /><span className="text-[#aa283c] text-2xl animate-bounce"><Link href='/services' passHref> offered services</Link>.</span> </div>
          
 </div>
-<div className='flex items-center justify-between max-w-[330px] m-auto my-3'>
+<div className='flex items-center justify-between w-[50%] m-auto my-3'>
          
     
             <a
