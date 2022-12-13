@@ -97,12 +97,12 @@ const About = () => {
             <h3 className='text-[19px] capitalize'>Let&apos;s define our 4 key proven and tested ingredients of high converting websites at Decoded Web.</h3>
              </div>
                
-              
+<Fade right duration={2000}>              
 <div className='flex-row text-left m-4'>
   
               <div className='flex-col my-2 p-2 leading-10'>
                 
-              <Fade right duration={2000}>
+              
               <div className=' text-white  font-extrabold p-6 my-2'>
               1) <span className='text-red-300'>User Interface Design (UI)</span>  is used to describe the physical appearance of the website from a design standpoint. 
               </div>  
@@ -115,13 +115,13 @@ const About = () => {
               <div className=' text-white  font-extrabold p-6 my-2'>
               4) <span className='text-red-300'>Functionality</span> is defined by the ease with which a user may acquire information, traverse your website, interact with it (in a way comparable to UI), and carry out crucial actions that result in conversions.
               </div>  
-              </Fade>
+            
               
               </div>
 
               
               </div>
-              
+                </Fade>
               
             </div>
             </div>
