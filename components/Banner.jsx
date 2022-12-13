@@ -60,10 +60,11 @@ const About = () => {
              </div>
            
               <div className='flex-row text-left m-4'>
+              <Fade left duration={2000}>
               <div className='flex flex-col md:flex-row xl:flex-col my-2 p-2 leading-10'>
 
               <BannerCards className='flex w-[50%] card xl:w-full'/>
-           <Fade left duration={2000}>
+           
                
                <div className='flex flex-col w-full md:w-[50%] xl:w-[100%] xl:w-full'> 
               <div className=' text-black  font-extrabold p-6 my-2'>
@@ -79,11 +80,8 @@ const About = () => {
               4) We underpromise and overdeliver. We strive to provide value and our biggest priority is customer satisfaction. We offer resources, tools and information for our audience and guide them through the entire process, covering your blind-spots so you can focus on real growth for your organization.
               </div> 
                </div> 
-</Fade>
-                
-              
               </div>
-              
+              </Fade>
               </div>
               
               
