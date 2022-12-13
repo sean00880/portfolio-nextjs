@@ -44,7 +44,7 @@ const Card = ({ project }) => {
       <div
         style={CardStyle}
         onMouseLeave={() => setIsFlipped((prev) => !prev)}
-        className="CardFront bg-[#1f1e1ef5] grid-cols-3 relative h-[20vh] justify-around border-2 border-[#00000082] rounded-2xl text-[#e9e9e9] text-[17px] p-4 font-extrabold text-center">
+        className="CardFront bg-[#1f1e1ef5] grid-cols-3 relative h-[20vh] justify-around border-2 border-[#00000082] rounded-2xl text-[#e9e9e9] text-[13px] sm:text-[15px] md:text-[17px] p-4 font-extrabold text-center">
 
               {project.desc}
               <hr />
