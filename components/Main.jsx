@@ -18,7 +18,7 @@ const Main = () => {
 							DECODED <span className="text-[red]">Web </span>
 						</span><hr/>Web Development Services</h1>
 
-<div className='flex flex-col md:flex-row bg-bg_image3 bg-cover bg-fixed p-2' >
+<div className='flex flex-col md:flex-row bg-bg_image3 bg-cover bg-fixed p-2 border-[#f5f4f4] border-4 lg:m-[1vh]'>
 <div className='flex flex-col p-4'>
 	  <div>
 	  <Image src='https://i.ibb.co/6Hb0cB5/hero-Image.png' width={250} height={250}/>
