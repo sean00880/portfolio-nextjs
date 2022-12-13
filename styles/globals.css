@@ -117,7 +117,7 @@ iframe{
 }
 
 .radial3{
-    background: radial-gradient(#3c0b0b87,#262626cf);
+    background: linear-gradient(#ffffff87,#000000);
     background-attachment: fixed;
 }
 
