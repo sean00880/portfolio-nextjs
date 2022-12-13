@@ -103,16 +103,16 @@ const About = () => {
               <div className='flex-col my-2 p-2 leading-10'>
                 
               <Fade right duration={2000}>
-              <div className=' text-white  font-extrabold px-6'>
+              <div className=' text-white  font-extrabold p-6 my-2'>
               1) <span className='text-red-300'>User Interface Design (UI)</span>  is used to describe the physical appearance of the website from a design standpoint. 
               </div>  
-              <div className=' text-white font-extrabold px-6'>
+              <div className=' text-white font-extrabold p-6 my-2'>
               2) <span className='text-red-300'>User Experience (UX)</span> refers to the feel of the website (how it navigates and how user intuitive it is).
               </div>  
-              <div className=' text-white font-extrabold px-6'>
+              <div className=' text-white font-extrabold p-6 my-2'>
               3) <span className='text-red-300'>SEO</span> is short for Search Engine Optimization. By ensuring proper implementation of meta-tags, open-graph meta tags, titles, descriptions, canonical URL, personalized sitemap and on-page SEO on every page of your application, etc., you&apos;ll certainly gain higher visibility amongst local browsing visitors who are likely to convert into leads.  
               </div>  
-              <div className=' text-white  font-extrabold px-6'>
+              <div className=' text-white  font-extrabold p-6 my-2'>
               4) <span className='text-red-300'>Functionality</span> is defined by the ease with which a user may acquire information, traverse your website, interact with it (in a way comparable to UI), and carry out crucial actions that result in conversions.
               </div>  
               </Fade>
