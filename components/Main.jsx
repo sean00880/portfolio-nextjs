@@ -69,6 +69,10 @@ const Main = () => {
       
          </div>
         </div>
+	<div className='flex flex-col md:flex-row'>
+		<h2 className='text-white font-custom'>
+			We partner with businesses from all sectors and covers website and outreach related goals so businesses can efficiently reach their targeted audience. <hr/>  Landscaping & Hardscaping Services, General Contracting Services, Medical Practices, Real Estate, Storefronts, Salons, Spas and other local Business models.  
+		</h2>
         <div className='m-6 bg-[#000000a1] border-2 border-outset border-[#f3f3f3] px-4 py-6 w-full xl:w-[40%] lg:w-[60%]'><h3 className='my-10'>Featured Projects:</h3><ProjectItem
             title='Grandpa Ron&apos;s Lawns & Landscape, LLC'
             backgroundImg={grllc}
@@ -95,6 +99,7 @@ const Main = () => {
     </div>
     </Link>
           </div>
+		</div>
       </div>
     </div>
   );
