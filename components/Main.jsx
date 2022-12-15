@@ -100,7 +100,7 @@ const Main = () => {
     </Link>
           </div>
 <h2 className='text-white font-custom -[2vh] text-[16px] flex flex-col justify-evenly bg-[#00000080]'>
-			We help transform your business' online presence by meticulously focusing on designing appealing User Interfaces and pave path for successful marketing campaigns that turn your online visitors into customers.
+			We help transform your business&apos; online presence by meticulously focusing on designing appealing User Interfaces and pave path for successful marketing campaigns that turn your online visitors into customers.
 		</h2>
 		</div>
       </div>
